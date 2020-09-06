@@ -1,3 +1,3 @@
 # aagsc
 
-Automatic Assembly Generation Under Syntacticall Constraints
+Automatic Assembly Generation Under Syntactical Constraints
