@@ -2,8 +2,10 @@ type reg = Reg of int
 type adr = Adr of int
 
 type asm =
-  | ADD of reg * reg
-  | SUB of reg * reg
+  | ADD of reg * reg * reg
+  | SUB of reg * reg * reg
+  | MOV of int * reg
+  | CPY of reg * reg
   | CLL of adr
   | RET
   | JMP of adr
