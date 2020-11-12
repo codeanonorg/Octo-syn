@@ -1,2 +1,9 @@
 (library
-  (name aagsc_lib))
+  (name octosyn)
+  (libraries keystone opal)
+  (modules :standard \ test))
+
+(executable
+  (name test)
+  (libraries octosyn)
+  (modules test))

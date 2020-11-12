@@ -1,30 +1,33 @@
-type reg = Reg of int
-type adr = Adr of int
+open Keystone
+open Keystone.Types
 
-type asm =
-  | ADD of reg * reg
-  | SUB of reg * reg
-  | CLL of adr
-  | RET
-  | JMP of adr
-  | PSH of reg
-  | POP of reg
-  | LDR of adr * reg
-  | STR of reg * adr
+let engine =
+  match ks_open KS_ARCH_X86 KS_MODE_64 with
+  | Ok e    -> e
+  | Error _ -> assert false
 
-type memo =
-  | M_ADD of reg * reg
-  | M_SUB of reg * reg
-  | M_CLL of adr
-  | M_RET
-  | M_JMP of string
-  | M_LBL of string
-  | M_PSH of reg
-  | M_POP of reg
-  | M_LDR of adr * reg
-  | M_STR of reg * adr
+let asm_size res = res.encoding_size
 
-module type COMPILER_SIG = sig
-  type opcode
-  type compiler = asm -> opcode list
-end
+let asm_count res = res.stat_count
+
+let asm_bytes res = res.encoding
+
+let print_bytes bytes = asm_array_to_string bytes 
+                        |> print_endline
+
+let reverted arr =
+  let n = Array.length arr in
+  Array.init n (fun i -> arr.(n - i - 1))
+
+let asm str =
+  match ks_asm engine str 0 with
+  | Ok res  -> ignore(ks_close engine); res
+  | Error s ->
+    ignore (ks_close engine);
+    Printf.eprintf "[asm] failed with: %s\n" s;
+    exit 1
+
+(* let _ = asm "inc rax; dec rax" 
+        |> asm_bytes
+        |> reverted
+        |> print_bytes *)
