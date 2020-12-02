@@ -1,0 +1,6503 @@
+{
+  "00": [
+    "xor byte ptr [rax], dh"
+  ],
+  "01": [
+    "xor byte ptr [rcx], dh"
+  ],
+  "02": [
+    "xor byte ptr [rdx], dh"
+  ],
+  "03": [
+    "xor byte ptr [rbx], dh"
+  ],
+  "06": [
+    "xor byte ptr [rsi], dh"
+  ],
+  "07": [
+    "xor byte ptr [rdi], dh"
+  ],
+  "08": [
+    "xor byte ptr [rax], bh"
+  ],
+  "09": [
+    "xor byte ptr [rcx], bh"
+  ],
+  "10": [
+    "xor dword ptr [rax], esi"
+  ],
+  "11": [
+    "xor dword ptr [rcx], esi"
+  ],
+  "12": [
+    "xor dword ptr [rdx], esi"
+  ],
+  "13": [
+    "xor dword ptr [rbx], esi"
+  ],
+  "16": [
+    "xor dword ptr [rsi], esi"
+  ],
+  "17": [
+    "xor dword ptr [rdi], esi"
+  ],
+  "18": [
+    "xor dword ptr [rax], edi"
+  ],
+  "19": [
+    "xor dword ptr [rcx], edi"
+  ],
+  "20": [
+    "xor dh, byte ptr [rax]"
+  ],
+  "21": [
+    "xor dh, byte ptr [rcx]"
+  ],
+  "22": [
+    "xor dh, byte ptr [rdx]"
+  ],
+  "23": [
+    "xor dh, byte ptr [rbx]"
+  ],
+  "26": [
+    "xor dh, byte ptr [rsi]"
+  ],
+  "27": [
+    "xor dh, byte ptr [rdi]"
+  ],
+  "28": [
+    "xor bh, byte ptr [rax]"
+  ],
+  "29": [
+    "xor bh, byte ptr [rcx]"
+  ],
+  "30": [
+    "xor esi, dword ptr [rax]"
+  ],
+  "31": [
+    "xor esi, dword ptr [rcx]"
+  ],
+  "32": [
+    "xor esi, dword ptr [rdx]"
+  ],
+  "33": [
+    "xor esi, dword ptr [rbx]"
+  ],
+  "36": [
+    "xor esi, dword ptr [rsi]"
+  ],
+  "37": [
+    "xor esi, dword ptr [rdi]"
+  ],
+  "38": [
+    "xor edi, dword ptr [rax]"
+  ],
+  "39": [
+    "xor edi, dword ptr [rcx]"
+  ],
+  "40": [
+    "xor al, 0x30"
+  ],
+  "41": [
+    "xor al, 0x31"
+  ],
+  "42": [
+    "xor al, 0x32"
+  ],
+  "43": [
+    "xor al, 0x33"
+  ],
+  "44": [
+    "xor al, 0x34"
+  ],
+  "45": [
+    "xor al, 0x35"
+  ],
+  "46": [
+    "xor al, 0x36"
+  ],
+  "47": [
+    "xor al, 0x37"
+  ],
+  "48": [
+    "xor al, 0x38"
+  ],
+  "49": [
+    "xor al, 0x39"
+  ],
+  "4A": [
+    "xor al, 0x41"
+  ],
+  "4B": [
+    "xor al, 0x42"
+  ],
+  "4C": [
+    "xor al, 0x43"
+  ],
+  "4D": [
+    "xor al, 0x44"
+  ],
+  "4E": [
+    "xor al, 0x45"
+  ],
+  "4F": [
+    "xor al, 0x46"
+  ],
+  "4G": [
+    "xor al, 0x47"
+  ],
+  "4H": [
+    "xor al, 0x48"
+  ],
+  "4I": [
+    "xor al, 0x49"
+  ],
+  "4J": [
+    "xor al, 0x4a"
+  ],
+  "4K": [
+    "xor al, 0x4b"
+  ],
+  "4L": [
+    "xor al, 0x4c"
+  ],
+  "4M": [
+    "xor al, 0x4d"
+  ],
+  "4N": [
+    "xor al, 0x4e"
+  ],
+  "4O": [
+    "xor al, 0x4f"
+  ],
+  "4P": [
+    "xor al, 0x50"
+  ],
+  "4Q": [
+    "xor al, 0x51"
+  ],
+  "4R": [
+    "xor al, 0x52"
+  ],
+  "4S": [
+    "xor al, 0x53"
+  ],
+  "4T": [
+    "xor al, 0x54"
+  ],
+  "4U": [
+    "xor al, 0x55"
+  ],
+  "4V": [
+    "xor al, 0x56"
+  ],
+  "4W": [
+    "xor al, 0x57"
+  ],
+  "4X": [
+    "xor al, 0x58"
+  ],
+  "4Y": [
+    "xor al, 0x59"
+  ],
+  "4Z": [
+    "xor al, 0x5a"
+  ],
+  "4a": [
+    "xor al, 0x61"
+  ],
+  "4b": [
+    "xor al, 0x62"
+  ],
+  "4c": [
+    "xor al, 0x63"
+  ],
+  "4d": [
+    "xor al, 0x64"
+  ],
+  "4e": [
+    "xor al, 0x65"
+  ],
+  "4f": [
+    "xor al, 0x66"
+  ],
+  "4g": [
+    "xor al, 0x67"
+  ],
+  "4h": [
+    "xor al, 0x68"
+  ],
+  "4i": [
+    "xor al, 0x69"
+  ],
+  "4j": [
+    "xor al, 0x6a"
+  ],
+  "4k": [
+    "xor al, 0x6b"
+  ],
+  "4l": [
+    "xor al, 0x6c"
+  ],
+  "4m": [
+    "xor al, 0x6d"
+  ],
+  "4n": [
+    "xor al, 0x6e"
+  ],
+  "4o": [
+    "xor al, 0x6f"
+  ],
+  "4p": [
+    "xor al, 0x70"
+  ],
+  "4q": [
+    "xor al, 0x71"
+  ],
+  "4r": [
+    "xor al, 0x72"
+  ],
+  "4s": [
+    "xor al, 0x73"
+  ],
+  "4t": [
+    "xor al, 0x74"
+  ],
+  "4u": [
+    "xor al, 0x75"
+  ],
+  "4v": [
+    "xor al, 0x76"
+  ],
+  "4w": [
+    "xor al, 0x77"
+  ],
+  "4x": [
+    "xor al, 0x78"
+  ],
+  "4y": [
+    "xor al, 0x79"
+  ],
+  "4z": [
+    "xor al, 0x7a"
+  ],
+  "6P": [
+    "push rax"
+  ],
+  "6Q": [
+    "push rcx"
+  ],
+  "6R": [
+    "push rdx"
+  ],
+  "6S": [
+    "push rbx"
+  ],
+  "6T": [
+    "push rsp"
+  ],
+  "6U": [
+    "push rbp"
+  ],
+  "6V": [
+    "push rsi"
+  ],
+  "6W": [
+    "push rdi"
+  ],
+  "6X": [
+    "pop rax"
+  ],
+  "6Y": [
+    "pop rcx"
+  ],
+  "6Z": [
+    "pop rdx"
+  ],
+  "6l": [
+    "insb byte ptr [rdi], dx"
+  ],
+  "6m": [
+    "insd dword ptr [rdi], dx"
+  ],
+  "6n": [
+    "outsb dx, byte ptr ss:[rsi]"
+  ],
+  "6o": [
+    "outsd dx, dword ptr ss:[rsi]"
+  ],
+  "80": [
+    "cmp byte ptr [rax], dh"
+  ],
+  "81": [
+    "cmp byte ptr [rcx], dh"
+  ],
+  "82": [
+    "cmp byte ptr [rdx], dh"
+  ],
+  "83": [
+    "cmp byte ptr [rbx], dh"
+  ],
+  "86": [
+    "cmp byte ptr [rsi], dh"
+  ],
+  "87": [
+    "cmp byte ptr [rdi], dh"
+  ],
+  "88": [
+    "cmp byte ptr [rax], bh"
+  ],
+  "89": [
+    "cmp byte ptr [rcx], bh"
+  ],
+  "90": [
+    "cmp dword ptr [rax], esi"
+  ],
+  "91": [
+    "cmp dword ptr [rcx], esi"
+  ],
+  "92": [
+    "cmp dword ptr [rdx], esi"
+  ],
+  "93": [
+    "cmp dword ptr [rbx], esi"
+  ],
+  "96": [
+    "cmp dword ptr [rsi], esi"
+  ],
+  "97": [
+    "cmp dword ptr [rdi], esi"
+  ],
+  "98": [
+    "cmp dword ptr [rax], edi"
+  ],
+  "99": [
+    "cmp dword ptr [rcx], edi"
+  ],
+  "AP": [
+    "push r8"
+  ],
+  "AQ": [
+    "push r9"
+  ],
+  "AR": [
+    "push r10"
+  ],
+  "AS": [
+    "push r11"
+  ],
+  "AT": [
+    "push r12"
+  ],
+  "AU": [
+    "push r13"
+  ],
+  "AV": [
+    "push r14"
+  ],
+  "AW": [
+    "push r15"
+  ],
+  "AX": [
+    "pop r8"
+  ],
+  "AY": [
+    "pop r9"
+  ],
+  "AZ": [
+    "pop r10"
+  ],
+  "Al": [
+    "insb byte ptr [rdi], dx"
+  ],
+  "Am": [
+    "insd dword ptr [rdi], dx"
+  ],
+  "An": [
+    "outsb dx, byte ptr [rsi]"
+  ],
+  "Ao": [
+    "outsd dx, dword ptr [rsi]"
+  ],
+  "BP": [
+    "push rax"
+  ],
+  "BQ": [
+    "push rcx"
+  ],
+  "BR": [
+    "push rdx"
+  ],
+  "BS": [
+    "push rbx"
+  ],
+  "BT": [
+    "push rsp"
+  ],
+  "BU": [
+    "push rbp"
+  ],
+  "BV": [
+    "push rsi"
+  ],
+  "BW": [
+    "push rdi"
+  ],
+  "BX": [
+    "pop rax"
+  ],
+  "BY": [
+    "pop rcx"
+  ],
+  "BZ": [
+    "pop rdx"
+  ],
+  "Bl": [
+    "insb byte ptr [rdi], dx"
+  ],
+  "Bm": [
+    "insd dword ptr [rdi], dx"
+  ],
+  "Bn": [
+    "outsb dx, byte ptr [rsi]"
+  ],
+  "Bo": [
+    "outsd dx, dword ptr [rsi]"
+  ],
+  "CP": [
+    "push r8"
+  ],
+  "CQ": [
+    "push r9"
+  ],
+  "CR": [
+    "push r10"
+  ],
+  "CS": [
+    "push r11"
+  ],
+  "CT": [
+    "push r12"
+  ],
+  "CU": [
+    "push r13"
+  ],
+  "CV": [
+    "push r14"
+  ],
+  "CW": [
+    "push r15"
+  ],
+  "CX": [
+    "pop r8"
+  ],
+  "CY": [
+    "pop r9"
+  ],
+  "CZ": [
+    "pop r10"
+  ],
+  "Cl": [
+    "insb byte ptr [rdi], dx"
+  ],
+  "Cm": [
+    "insd dword ptr [rdi], dx"
+  ],
+  "Cn": [
+    "outsb dx, byte ptr [rsi]"
+  ],
+  "Co": [
+    "outsd dx, dword ptr [rsi]"
+  ],
+  "DP": [
+    "push rax"
+  ],
+  "DQ": [
+    "push rcx"
+  ],
+  "DR": [
+    "push rdx"
+  ],
+  "DS": [
+    "push rbx"
+  ],
+  "DT": [
+    "push rsp"
+  ],
+  "DU": [
+    "push rbp"
+  ],
+  "DV": [
+    "push rsi"
+  ],
+  "DW": [
+    "push rdi"
+  ],
+  "DX": [
+    "pop rax"
+  ],
+  "DY": [
+    "pop rcx"
+  ],
+  "DZ": [
+    "pop rdx"
+  ],
+  "Dl": [
+    "insb byte ptr [rdi], dx"
+  ],
+  "Dm": [
+    "insd dword ptr [rdi], dx"
+  ],
+  "Dn": [
+    "outsb dx, byte ptr [rsi]"
+  ],
+  "Do": [
+    "outsd dx, dword ptr [rsi]"
+  ],
+  "EP": [
+    "push r8"
+  ],
+  "EQ": [
+    "push r9"
+  ],
+  "ER": [
+    "push r10"
+  ],
+  "ES": [
+    "push r11"
+  ],
+  "ET": [
+    "push r12"
+  ],
+  "EU": [
+    "push r13"
+  ],
+  "EV": [
+    "push r14"
+  ],
+  "EW": [
+    "push r15"
+  ],
+  "EX": [
+    "pop r8"
+  ],
+  "EY": [
+    "pop r9"
+  ],
+  "EZ": [
+    "pop r10"
+  ],
+  "El": [
+    "insb byte ptr [rdi], dx"
+  ],
+  "Em": [
+    "insd dword ptr [rdi], dx"
+  ],
+  "En": [
+    "outsb dx, byte ptr [rsi]"
+  ],
+  "Eo": [
+    "outsd dx, dword ptr [rsi]"
+  ],
+  "FP": [
+    "push rax"
+  ],
+  "FQ": [
+    "push rcx"
+  ],
+  "FR": [
+    "push rdx"
+  ],
+  "FS": [
+    "push rbx"
+  ],
+  "FT": [
+    "push rsp"
+  ],
+  "FU": [
+    "push rbp"
+  ],
+  "FV": [
+    "push rsi"
+  ],
+  "FW": [
+    "push rdi"
+  ],
+  "FX": [
+    "pop rax"
+  ],
+  "FY": [
+    "pop rcx"
+  ],
+  "FZ": [
+    "pop rdx"
+  ],
+  "Fl": [
+    "insb byte ptr [rdi], dx"
+  ],
+  "Fm": [
+    "insd dword ptr [rdi], dx"
+  ],
+  "Fn": [
+    "outsb dx, byte ptr [rsi]"
+  ],
+  "Fo": [
+    "outsd dx, dword ptr [rsi]"
+  ],
+  "GP": [
+    "push r8"
+  ],
+  "GQ": [
+    "push r9"
+  ],
+  "GR": [
+    "push r10"
+  ],
+  "GS": [
+    "push r11"
+  ],
+  "GT": [
+    "push r12"
+  ],
+  "GU": [
+    "push r13"
+  ],
+  "GV": [
+    "push r14"
+  ],
+  "GW": [
+    "push r15"
+  ],
+  "GX": [
+    "pop r8"
+  ],
+  "GY": [
+    "pop r9"
+  ],
+  "GZ": [
+    "pop r10"
+  ],
+  "Gl": [
+    "insb byte ptr [rdi], dx"
+  ],
+  "Gm": [
+    "insd dword ptr [rdi], dx"
+  ],
+  "Gn": [
+    "outsb dx, byte ptr [rsi]"
+  ],
+  "Go": [
+    "outsd dx, dword ptr [rsi]"
+  ],
+  "HP": [
+    "push rax"
+  ],
+  "HQ": [
+    "push rcx"
+  ],
+  "HR": [
+    "push rdx"
+  ],
+  "HS": [
+    "push rbx"
+  ],
+  "HT": [
+    "push rsp"
+  ],
+  "HU": [
+    "push rbp"
+  ],
+  "HV": [
+    "push rsi"
+  ],
+  "HW": [
+    "push rdi"
+  ],
+  "HX": [
+    "pop rax"
+  ],
+  "HY": [
+    "pop rcx"
+  ],
+  "HZ": [
+    "pop rdx"
+  ],
+  "Hl": [
+    "insb byte ptr [rdi], dx"
+  ],
+  "Hm": [
+    "insd dword ptr [rdi], dx"
+  ],
+  "Hn": [
+    "outsb dx, byte ptr [rsi]"
+  ],
+  "Ho": [
+    "outsd dx, dword ptr [rsi]"
+  ],
+  "IP": [
+    "push r8"
+  ],
+  "IQ": [
+    "push r9"
+  ],
+  "IR": [
+    "push r10"
+  ],
+  "IS": [
+    "push r11"
+  ],
+  "IT": [
+    "push r12"
+  ],
+  "IU": [
+    "push r13"
+  ],
+  "IV": [
+    "push r14"
+  ],
+  "IW": [
+    "push r15"
+  ],
+  "IX": [
+    "pop r8"
+  ],
+  "IY": [
+    "pop r9"
+  ],
+  "IZ": [
+    "pop r10"
+  ],
+  "Il": [
+    "insb byte ptr [rdi], dx"
+  ],
+  "Im": [
+    "insd dword ptr [rdi], dx"
+  ],
+  "In": [
+    "outsb dx, byte ptr [rsi]"
+  ],
+  "Io": [
+    "outsd dx, dword ptr [rsi]"
+  ],
+  "JP": [
+    "push rax"
+  ],
+  "JQ": [
+    "push rcx"
+  ],
+  "JR": [
+    "push rdx"
+  ],
+  "JS": [
+    "push rbx"
+  ],
+  "JT": [
+    "push rsp"
+  ],
+  "JU": [
+    "push rbp"
+  ],
+  "JV": [
+    "push rsi"
+  ],
+  "JW": [
+    "push rdi"
+  ],
+  "JX": [
+    "pop rax"
+  ],
+  "JY": [
+    "pop rcx"
+  ],
+  "JZ": [
+    "pop rdx"
+  ],
+  "Jl": [
+    "insb byte ptr [rdi], dx"
+  ],
+  "Jm": [
+    "insd dword ptr [rdi], dx"
+  ],
+  "Jn": [
+    "outsb dx, byte ptr [rsi]"
+  ],
+  "Jo": [
+    "outsd dx, dword ptr [rsi]"
+  ],
+  "KP": [
+    "push r8"
+  ],
+  "KQ": [
+    "push r9"
+  ],
+  "KR": [
+    "push r10"
+  ],
+  "KS": [
+    "push r11"
+  ],
+  "KT": [
+    "push r12"
+  ],
+  "KU": [
+    "push r13"
+  ],
+  "KV": [
+    "push r14"
+  ],
+  "KW": [
+    "push r15"
+  ],
+  "KX": [
+    "pop r8"
+  ],
+  "KY": [
+    "pop r9"
+  ],
+  "KZ": [
+    "pop r10"
+  ],
+  "Kl": [
+    "insb byte ptr [rdi], dx"
+  ],
+  "Km": [
+    "insd dword ptr [rdi], dx"
+  ],
+  "Kn": [
+    "outsb dx, byte ptr [rsi]"
+  ],
+  "Ko": [
+    "outsd dx, dword ptr [rsi]"
+  ],
+  "LP": [
+    "push rax"
+  ],
+  "LQ": [
+    "push rcx"
+  ],
+  "LR": [
+    "push rdx"
+  ],
+  "LS": [
+    "push rbx"
+  ],
+  "LT": [
+    "push rsp"
+  ],
+  "LU": [
+    "push rbp"
+  ],
+  "LV": [
+    "push rsi"
+  ],
+  "LW": [
+    "push rdi"
+  ],
+  "LX": [
+    "pop rax"
+  ],
+  "LY": [
+    "pop rcx"
+  ],
+  "LZ": [
+    "pop rdx"
+  ],
+  "Ll": [
+    "insb byte ptr [rdi], dx"
+  ],
+  "Lm": [
+    "insd dword ptr [rdi], dx"
+  ],
+  "Ln": [
+    "outsb dx, byte ptr [rsi]"
+  ],
+  "Lo": [
+    "outsd dx, dword ptr [rsi]"
+  ],
+  "MP": [
+    "push r8"
+  ],
+  "MQ": [
+    "push r9"
+  ],
+  "MR": [
+    "push r10"
+  ],
+  "MS": [
+    "push r11"
+  ],
+  "MT": [
+    "push r12"
+  ],
+  "MU": [
+    "push r13"
+  ],
+  "MV": [
+    "push r14"
+  ],
+  "MW": [
+    "push r15"
+  ],
+  "MX": [
+    "pop r8"
+  ],
+  "MY": [
+    "pop r9"
+  ],
+  "MZ": [
+    "pop r10"
+  ],
+  "Ml": [
+    "insb byte ptr [rdi], dx"
+  ],
+  "Mm": [
+    "insd dword ptr [rdi], dx"
+  ],
+  "Mn": [
+    "outsb dx, byte ptr [rsi]"
+  ],
+  "Mo": [
+    "outsd dx, dword ptr [rsi]"
+  ],
+  "NP": [
+    "push rax"
+  ],
+  "NQ": [
+    "push rcx"
+  ],
+  "NR": [
+    "push rdx"
+  ],
+  "NS": [
+    "push rbx"
+  ],
+  "NT": [
+    "push rsp"
+  ],
+  "NU": [
+    "push rbp"
+  ],
+  "NV": [
+    "push rsi"
+  ],
+  "NW": [
+    "push rdi"
+  ],
+  "NX": [
+    "pop rax"
+  ],
+  "NY": [
+    "pop rcx"
+  ],
+  "NZ": [
+    "pop rdx"
+  ],
+  "Nl": [
+    "insb byte ptr [rdi], dx"
+  ],
+  "Nm": [
+    "insd dword ptr [rdi], dx"
+  ],
+  "Nn": [
+    "outsb dx, byte ptr [rsi]"
+  ],
+  "No": [
+    "outsd dx, dword ptr [rsi]"
+  ],
+  "OP": [
+    "push r8"
+  ],
+  "OQ": [
+    "push r9"
+  ],
+  "OR": [
+    "push r10"
+  ],
+  "OS": [
+    "push r11"
+  ],
+  "OT": [
+    "push r12"
+  ],
+  "OU": [
+    "push r13"
+  ],
+  "OV": [
+    "push r14"
+  ],
+  "OW": [
+    "push r15"
+  ],
+  "OX": [
+    "pop r8"
+  ],
+  "OY": [
+    "pop r9"
+  ],
+  "OZ": [
+    "pop r10"
+  ],
+  "Ol": [
+    "insb byte ptr [rdi], dx"
+  ],
+  "Om": [
+    "insd dword ptr [rdi], dx"
+  ],
+  "On": [
+    "outsb dx, byte ptr [rsi]"
+  ],
+  "Oo": [
+    "outsd dx, dword ptr [rsi]"
+  ],
+  "P0": [
+    "push rax"
+  ],
+  "P1": [
+    "push rax"
+  ],
+  "P2": [
+    "push rax"
+  ],
+  "P3": [
+    "push rax"
+  ],
+  "P4": [
+    "push rax"
+  ],
+  "P5": [
+    "push rax"
+  ],
+  "P6": [
+    "push rax"
+  ],
+  "P7": [
+    "push rax"
+  ],
+  "P8": [
+    "push rax"
+  ],
+  "P9": [
+    "push rax"
+  ],
+  "PA": [
+    "push rax"
+  ],
+  "PB": [
+    "push rax"
+  ],
+  "PC": [
+    "push rax"
+  ],
+  "PD": [
+    "push rax"
+  ],
+  "PE": [
+    "push rax"
+  ],
+  "PF": [
+    "push rax"
+  ],
+  "PG": [
+    "push rax"
+  ],
+  "PH": [
+    "push rax"
+  ],
+  "PI": [
+    "push rax"
+  ],
+  "PJ": [
+    "push rax"
+  ],
+  "PK": [
+    "push rax"
+  ],
+  "PL": [
+    "push rax"
+  ],
+  "PM": [
+    "push rax"
+  ],
+  "PN": [
+    "push rax"
+  ],
+  "PO": [
+    "push rax"
+  ],
+  "PP": [
+    "push rax",
+    "push rax"
+  ],
+  "PQ": [
+    "push rax",
+    "push rcx"
+  ],
+  "PR": [
+    "push rax",
+    "push rdx"
+  ],
+  "PS": [
+    "push rax",
+    "push rbx"
+  ],
+  "PT": [
+    "push rax",
+    "push rsp"
+  ],
+  "PU": [
+    "push rax",
+    "push rbp"
+  ],
+  "PV": [
+    "push rax",
+    "push rsi"
+  ],
+  "PW": [
+    "push rax",
+    "push rdi"
+  ],
+  "PX": [
+    "push rax",
+    "pop rax"
+  ],
+  "PY": [
+    "push rax",
+    "pop rcx"
+  ],
+  "PZ": [
+    "push rax",
+    "pop rdx"
+  ],
+  "Pa": [
+    "push rax"
+  ],
+  "Pb": [
+    "push rax"
+  ],
+  "Pc": [
+    "push rax"
+  ],
+  "Pd": [
+    "push rax"
+  ],
+  "Pe": [
+    "push rax"
+  ],
+  "Pf": [
+    "push rax"
+  ],
+  "Pg": [
+    "push rax"
+  ],
+  "Ph": [
+    "push rax"
+  ],
+  "Pi": [
+    "push rax"
+  ],
+  "Pj": [
+    "push rax"
+  ],
+  "Pk": [
+    "push rax"
+  ],
+  "Pl": [
+    "push rax",
+    "insb byte ptr [rdi], dx"
+  ],
+  "Pm": [
+    "push rax",
+    "insd dword ptr [rdi], dx"
+  ],
+  "Pn": [
+    "push rax",
+    "outsb dx, byte ptr [rsi]"
+  ],
+  "Po": [
+    "push rax",
+    "outsd dx, dword ptr [rsi]"
+  ],
+  "Pp": [
+    "push rax"
+  ],
+  "Pq": [
+    "push rax"
+  ],
+  "Pr": [
+    "push rax"
+  ],
+  "Ps": [
+    "push rax"
+  ],
+  "Pt": [
+    "push rax"
+  ],
+  "Pu": [
+    "push rax"
+  ],
+  "Pv": [
+    "push rax"
+  ],
+  "Pw": [
+    "push rax"
+  ],
+  "Px": [
+    "push rax"
+  ],
+  "Py": [
+    "push rax"
+  ],
+  "Pz": [
+    "push rax"
+  ],
+  "Q0": [
+    "push rcx"
+  ],
+  "Q1": [
+    "push rcx"
+  ],
+  "Q2": [
+    "push rcx"
+  ],
+  "Q3": [
+    "push rcx"
+  ],
+  "Q4": [
+    "push rcx"
+  ],
+  "Q5": [
+    "push rcx"
+  ],
+  "Q6": [
+    "push rcx"
+  ],
+  "Q7": [
+    "push rcx"
+  ],
+  "Q8": [
+    "push rcx"
+  ],
+  "Q9": [
+    "push rcx"
+  ],
+  "QA": [
+    "push rcx"
+  ],
+  "QB": [
+    "push rcx"
+  ],
+  "QC": [
+    "push rcx"
+  ],
+  "QD": [
+    "push rcx"
+  ],
+  "QE": [
+    "push rcx"
+  ],
+  "QF": [
+    "push rcx"
+  ],
+  "QG": [
+    "push rcx"
+  ],
+  "QH": [
+    "push rcx"
+  ],
+  "QI": [
+    "push rcx"
+  ],
+  "QJ": [
+    "push rcx"
+  ],
+  "QK": [
+    "push rcx"
+  ],
+  "QL": [
+    "push rcx"
+  ],
+  "QM": [
+    "push rcx"
+  ],
+  "QN": [
+    "push rcx"
+  ],
+  "QO": [
+    "push rcx"
+  ],
+  "QP": [
+    "push rcx",
+    "push rax"
+  ],
+  "QQ": [
+    "push rcx",
+    "push rcx"
+  ],
+  "QR": [
+    "push rcx",
+    "push rdx"
+  ],
+  "QS": [
+    "push rcx",
+    "push rbx"
+  ],
+  "QT": [
+    "push rcx",
+    "push rsp"
+  ],
+  "QU": [
+    "push rcx",
+    "push rbp"
+  ],
+  "QV": [
+    "push rcx",
+    "push rsi"
+  ],
+  "QW": [
+    "push rcx",
+    "push rdi"
+  ],
+  "QX": [
+    "push rcx",
+    "pop rax"
+  ],
+  "QY": [
+    "push rcx",
+    "pop rcx"
+  ],
+  "QZ": [
+    "push rcx",
+    "pop rdx"
+  ],
+  "Qa": [
+    "push rcx"
+  ],
+  "Qb": [
+    "push rcx"
+  ],
+  "Qc": [
+    "push rcx"
+  ],
+  "Qd": [
+    "push rcx"
+  ],
+  "Qe": [
+    "push rcx"
+  ],
+  "Qf": [
+    "push rcx"
+  ],
+  "Qg": [
+    "push rcx"
+  ],
+  "Qh": [
+    "push rcx"
+  ],
+  "Qi": [
+    "push rcx"
+  ],
+  "Qj": [
+    "push rcx"
+  ],
+  "Qk": [
+    "push rcx"
+  ],
+  "Ql": [
+    "push rcx",
+    "insb byte ptr [rdi], dx"
+  ],
+  "Qm": [
+    "push rcx",
+    "insd dword ptr [rdi], dx"
+  ],
+  "Qn": [
+    "push rcx",
+    "outsb dx, byte ptr [rsi]"
+  ],
+  "Qo": [
+    "push rcx",
+    "outsd dx, dword ptr [rsi]"
+  ],
+  "Qp": [
+    "push rcx"
+  ],
+  "Qq": [
+    "push rcx"
+  ],
+  "Qr": [
+    "push rcx"
+  ],
+  "Qs": [
+    "push rcx"
+  ],
+  "Qt": [
+    "push rcx"
+  ],
+  "Qu": [
+    "push rcx"
+  ],
+  "Qv": [
+    "push rcx"
+  ],
+  "Qw": [
+    "push rcx"
+  ],
+  "Qx": [
+    "push rcx"
+  ],
+  "Qy": [
+    "push rcx"
+  ],
+  "Qz": [
+    "push rcx"
+  ],
+  "R0": [
+    "push rdx"
+  ],
+  "R1": [
+    "push rdx"
+  ],
+  "R2": [
+    "push rdx"
+  ],
+  "R3": [
+    "push rdx"
+  ],
+  "R4": [
+    "push rdx"
+  ],
+  "R5": [
+    "push rdx"
+  ],
+  "R6": [
+    "push rdx"
+  ],
+  "R7": [
+    "push rdx"
+  ],
+  "R8": [
+    "push rdx"
+  ],
+  "R9": [
+    "push rdx"
+  ],
+  "RA": [
+    "push rdx"
+  ],
+  "RB": [
+    "push rdx"
+  ],
+  "RC": [
+    "push rdx"
+  ],
+  "RD": [
+    "push rdx"
+  ],
+  "RE": [
+    "push rdx"
+  ],
+  "RF": [
+    "push rdx"
+  ],
+  "RG": [
+    "push rdx"
+  ],
+  "RH": [
+    "push rdx"
+  ],
+  "RI": [
+    "push rdx"
+  ],
+  "RJ": [
+    "push rdx"
+  ],
+  "RK": [
+    "push rdx"
+  ],
+  "RL": [
+    "push rdx"
+  ],
+  "RM": [
+    "push rdx"
+  ],
+  "RN": [
+    "push rdx"
+  ],
+  "RO": [
+    "push rdx"
+  ],
+  "RP": [
+    "push rdx",
+    "push rax"
+  ],
+  "RQ": [
+    "push rdx",
+    "push rcx"
+  ],
+  "RR": [
+    "push rdx",
+    "push rdx"
+  ],
+  "RS": [
+    "push rdx",
+    "push rbx"
+  ],
+  "RT": [
+    "push rdx",
+    "push rsp"
+  ],
+  "RU": [
+    "push rdx",
+    "push rbp"
+  ],
+  "RV": [
+    "push rdx",
+    "push rsi"
+  ],
+  "RW": [
+    "push rdx",
+    "push rdi"
+  ],
+  "RX": [
+    "push rdx",
+    "pop rax"
+  ],
+  "RY": [
+    "push rdx",
+    "pop rcx"
+  ],
+  "RZ": [
+    "push rdx",
+    "pop rdx"
+  ],
+  "Ra": [
+    "push rdx"
+  ],
+  "Rb": [
+    "push rdx"
+  ],
+  "Rc": [
+    "push rdx"
+  ],
+  "Rd": [
+    "push rdx"
+  ],
+  "Re": [
+    "push rdx"
+  ],
+  "Rf": [
+    "push rdx"
+  ],
+  "Rg": [
+    "push rdx"
+  ],
+  "Rh": [
+    "push rdx"
+  ],
+  "Ri": [
+    "push rdx"
+  ],
+  "Rj": [
+    "push rdx"
+  ],
+  "Rk": [
+    "push rdx"
+  ],
+  "Rl": [
+    "push rdx",
+    "insb byte ptr [rdi], dx"
+  ],
+  "Rm": [
+    "push rdx",
+    "insd dword ptr [rdi], dx"
+  ],
+  "Rn": [
+    "push rdx",
+    "outsb dx, byte ptr [rsi]"
+  ],
+  "Ro": [
+    "push rdx",
+    "outsd dx, dword ptr [rsi]"
+  ],
+  "Rp": [
+    "push rdx"
+  ],
+  "Rq": [
+    "push rdx"
+  ],
+  "Rr": [
+    "push rdx"
+  ],
+  "Rs": [
+    "push rdx"
+  ],
+  "Rt": [
+    "push rdx"
+  ],
+  "Ru": [
+    "push rdx"
+  ],
+  "Rv": [
+    "push rdx"
+  ],
+  "Rw": [
+    "push rdx"
+  ],
+  "Rx": [
+    "push rdx"
+  ],
+  "Ry": [
+    "push rdx"
+  ],
+  "Rz": [
+    "push rdx"
+  ],
+  "S0": [
+    "push rbx"
+  ],
+  "S1": [
+    "push rbx"
+  ],
+  "S2": [
+    "push rbx"
+  ],
+  "S3": [
+    "push rbx"
+  ],
+  "S4": [
+    "push rbx"
+  ],
+  "S5": [
+    "push rbx"
+  ],
+  "S6": [
+    "push rbx"
+  ],
+  "S7": [
+    "push rbx"
+  ],
+  "S8": [
+    "push rbx"
+  ],
+  "S9": [
+    "push rbx"
+  ],
+  "SA": [
+    "push rbx"
+  ],
+  "SB": [
+    "push rbx"
+  ],
+  "SC": [
+    "push rbx"
+  ],
+  "SD": [
+    "push rbx"
+  ],
+  "SE": [
+    "push rbx"
+  ],
+  "SF": [
+    "push rbx"
+  ],
+  "SG": [
+    "push rbx"
+  ],
+  "SH": [
+    "push rbx"
+  ],
+  "SI": [
+    "push rbx"
+  ],
+  "SJ": [
+    "push rbx"
+  ],
+  "SK": [
+    "push rbx"
+  ],
+  "SL": [
+    "push rbx"
+  ],
+  "SM": [
+    "push rbx"
+  ],
+  "SN": [
+    "push rbx"
+  ],
+  "SO": [
+    "push rbx"
+  ],
+  "SP": [
+    "push rbx",
+    "push rax"
+  ],
+  "SQ": [
+    "push rbx",
+    "push rcx"
+  ],
+  "SR": [
+    "push rbx",
+    "push rdx"
+  ],
+  "SS": [
+    "push rbx",
+    "push rbx"
+  ],
+  "ST": [
+    "push rbx",
+    "push rsp"
+  ],
+  "SU": [
+    "push rbx",
+    "push rbp"
+  ],
+  "SV": [
+    "push rbx",
+    "push rsi"
+  ],
+  "SW": [
+    "push rbx",
+    "push rdi"
+  ],
+  "SX": [
+    "push rbx",
+    "pop rax"
+  ],
+  "SY": [
+    "push rbx",
+    "pop rcx"
+  ],
+  "SZ": [
+    "push rbx",
+    "pop rdx"
+  ],
+  "Sa": [
+    "push rbx"
+  ],
+  "Sb": [
+    "push rbx"
+  ],
+  "Sc": [
+    "push rbx"
+  ],
+  "Sd": [
+    "push rbx"
+  ],
+  "Se": [
+    "push rbx"
+  ],
+  "Sf": [
+    "push rbx"
+  ],
+  "Sg": [
+    "push rbx"
+  ],
+  "Sh": [
+    "push rbx"
+  ],
+  "Si": [
+    "push rbx"
+  ],
+  "Sj": [
+    "push rbx"
+  ],
+  "Sk": [
+    "push rbx"
+  ],
+  "Sl": [
+    "push rbx",
+    "insb byte ptr [rdi], dx"
+  ],
+  "Sm": [
+    "push rbx",
+    "insd dword ptr [rdi], dx"
+  ],
+  "Sn": [
+    "push rbx",
+    "outsb dx, byte ptr [rsi]"
+  ],
+  "So": [
+    "push rbx",
+    "outsd dx, dword ptr [rsi]"
+  ],
+  "Sp": [
+    "push rbx"
+  ],
+  "Sq": [
+    "push rbx"
+  ],
+  "Sr": [
+    "push rbx"
+  ],
+  "Ss": [
+    "push rbx"
+  ],
+  "St": [
+    "push rbx"
+  ],
+  "Su": [
+    "push rbx"
+  ],
+  "Sv": [
+    "push rbx"
+  ],
+  "Sw": [
+    "push rbx"
+  ],
+  "Sx": [
+    "push rbx"
+  ],
+  "Sy": [
+    "push rbx"
+  ],
+  "Sz": [
+    "push rbx"
+  ],
+  "T0": [
+    "push rsp"
+  ],
+  "T1": [
+    "push rsp"
+  ],
+  "T2": [
+    "push rsp"
+  ],
+  "T3": [
+    "push rsp"
+  ],
+  "T4": [
+    "push rsp"
+  ],
+  "T5": [
+    "push rsp"
+  ],
+  "T6": [
+    "push rsp"
+  ],
+  "T7": [
+    "push rsp"
+  ],
+  "T8": [
+    "push rsp"
+  ],
+  "T9": [
+    "push rsp"
+  ],
+  "TA": [
+    "push rsp"
+  ],
+  "TB": [
+    "push rsp"
+  ],
+  "TC": [
+    "push rsp"
+  ],
+  "TD": [
+    "push rsp"
+  ],
+  "TE": [
+    "push rsp"
+  ],
+  "TF": [
+    "push rsp"
+  ],
+  "TG": [
+    "push rsp"
+  ],
+  "TH": [
+    "push rsp"
+  ],
+  "TI": [
+    "push rsp"
+  ],
+  "TJ": [
+    "push rsp"
+  ],
+  "TK": [
+    "push rsp"
+  ],
+  "TL": [
+    "push rsp"
+  ],
+  "TM": [
+    "push rsp"
+  ],
+  "TN": [
+    "push rsp"
+  ],
+  "TO": [
+    "push rsp"
+  ],
+  "TP": [
+    "push rsp",
+    "push rax"
+  ],
+  "TQ": [
+    "push rsp",
+    "push rcx"
+  ],
+  "TR": [
+    "push rsp",
+    "push rdx"
+  ],
+  "TS": [
+    "push rsp",
+    "push rbx"
+  ],
+  "TT": [
+    "push rsp",
+    "push rsp"
+  ],
+  "TU": [
+    "push rsp",
+    "push rbp"
+  ],
+  "TV": [
+    "push rsp",
+    "push rsi"
+  ],
+  "TW": [
+    "push rsp",
+    "push rdi"
+  ],
+  "TX": [
+    "push rsp",
+    "pop rax"
+  ],
+  "TY": [
+    "push rsp",
+    "pop rcx"
+  ],
+  "TZ": [
+    "push rsp",
+    "pop rdx"
+  ],
+  "Ta": [
+    "push rsp"
+  ],
+  "Tb": [
+    "push rsp"
+  ],
+  "Tc": [
+    "push rsp"
+  ],
+  "Td": [
+    "push rsp"
+  ],
+  "Te": [
+    "push rsp"
+  ],
+  "Tf": [
+    "push rsp"
+  ],
+  "Tg": [
+    "push rsp"
+  ],
+  "Th": [
+    "push rsp"
+  ],
+  "Ti": [
+    "push rsp"
+  ],
+  "Tj": [
+    "push rsp"
+  ],
+  "Tk": [
+    "push rsp"
+  ],
+  "Tl": [
+    "push rsp",
+    "insb byte ptr [rdi], dx"
+  ],
+  "Tm": [
+    "push rsp",
+    "insd dword ptr [rdi], dx"
+  ],
+  "Tn": [
+    "push rsp",
+    "outsb dx, byte ptr [rsi]"
+  ],
+  "To": [
+    "push rsp",
+    "outsd dx, dword ptr [rsi]"
+  ],
+  "Tp": [
+    "push rsp"
+  ],
+  "Tq": [
+    "push rsp"
+  ],
+  "Tr": [
+    "push rsp"
+  ],
+  "Ts": [
+    "push rsp"
+  ],
+  "Tt": [
+    "push rsp"
+  ],
+  "Tu": [
+    "push rsp"
+  ],
+  "Tv": [
+    "push rsp"
+  ],
+  "Tw": [
+    "push rsp"
+  ],
+  "Tx": [
+    "push rsp"
+  ],
+  "Ty": [
+    "push rsp"
+  ],
+  "Tz": [
+    "push rsp"
+  ],
+  "U0": [
+    "push rbp"
+  ],
+  "U1": [
+    "push rbp"
+  ],
+  "U2": [
+    "push rbp"
+  ],
+  "U3": [
+    "push rbp"
+  ],
+  "U4": [
+    "push rbp"
+  ],
+  "U5": [
+    "push rbp"
+  ],
+  "U6": [
+    "push rbp"
+  ],
+  "U7": [
+    "push rbp"
+  ],
+  "U8": [
+    "push rbp"
+  ],
+  "U9": [
+    "push rbp"
+  ],
+  "UA": [
+    "push rbp"
+  ],
+  "UB": [
+    "push rbp"
+  ],
+  "UC": [
+    "push rbp"
+  ],
+  "UD": [
+    "push rbp"
+  ],
+  "UE": [
+    "push rbp"
+  ],
+  "UF": [
+    "push rbp"
+  ],
+  "UG": [
+    "push rbp"
+  ],
+  "UH": [
+    "push rbp"
+  ],
+  "UI": [
+    "push rbp"
+  ],
+  "UJ": [
+    "push rbp"
+  ],
+  "UK": [
+    "push rbp"
+  ],
+  "UL": [
+    "push rbp"
+  ],
+  "UM": [
+    "push rbp"
+  ],
+  "UN": [
+    "push rbp"
+  ],
+  "UO": [
+    "push rbp"
+  ],
+  "UP": [
+    "push rbp",
+    "push rax"
+  ],
+  "UQ": [
+    "push rbp",
+    "push rcx"
+  ],
+  "UR": [
+    "push rbp",
+    "push rdx"
+  ],
+  "US": [
+    "push rbp",
+    "push rbx"
+  ],
+  "UT": [
+    "push rbp",
+    "push rsp"
+  ],
+  "UU": [
+    "push rbp",
+    "push rbp"
+  ],
+  "UV": [
+    "push rbp",
+    "push rsi"
+  ],
+  "UW": [
+    "push rbp",
+    "push rdi"
+  ],
+  "UX": [
+    "push rbp",
+    "pop rax"
+  ],
+  "UY": [
+    "push rbp",
+    "pop rcx"
+  ],
+  "UZ": [
+    "push rbp",
+    "pop rdx"
+  ],
+  "Ua": [
+    "push rbp"
+  ],
+  "Ub": [
+    "push rbp"
+  ],
+  "Uc": [
+    "push rbp"
+  ],
+  "Ud": [
+    "push rbp"
+  ],
+  "Ue": [
+    "push rbp"
+  ],
+  "Uf": [
+    "push rbp"
+  ],
+  "Ug": [
+    "push rbp"
+  ],
+  "Uh": [
+    "push rbp"
+  ],
+  "Ui": [
+    "push rbp"
+  ],
+  "Uj": [
+    "push rbp"
+  ],
+  "Uk": [
+    "push rbp"
+  ],
+  "Ul": [
+    "push rbp",
+    "insb byte ptr [rdi], dx"
+  ],
+  "Um": [
+    "push rbp",
+    "insd dword ptr [rdi], dx"
+  ],
+  "Un": [
+    "push rbp",
+    "outsb dx, byte ptr [rsi]"
+  ],
+  "Uo": [
+    "push rbp",
+    "outsd dx, dword ptr [rsi]"
+  ],
+  "Up": [
+    "push rbp"
+  ],
+  "Uq": [
+    "push rbp"
+  ],
+  "Ur": [
+    "push rbp"
+  ],
+  "Us": [
+    "push rbp"
+  ],
+  "Ut": [
+    "push rbp"
+  ],
+  "Uu": [
+    "push rbp"
+  ],
+  "Uv": [
+    "push rbp"
+  ],
+  "Uw": [
+    "push rbp"
+  ],
+  "Ux": [
+    "push rbp"
+  ],
+  "Uy": [
+    "push rbp"
+  ],
+  "Uz": [
+    "push rbp"
+  ],
+  "V0": [
+    "push rsi"
+  ],
+  "V1": [
+    "push rsi"
+  ],
+  "V2": [
+    "push rsi"
+  ],
+  "V3": [
+    "push rsi"
+  ],
+  "V4": [
+    "push rsi"
+  ],
+  "V5": [
+    "push rsi"
+  ],
+  "V6": [
+    "push rsi"
+  ],
+  "V7": [
+    "push rsi"
+  ],
+  "V8": [
+    "push rsi"
+  ],
+  "V9": [
+    "push rsi"
+  ],
+  "VA": [
+    "push rsi"
+  ],
+  "VB": [
+    "push rsi"
+  ],
+  "VC": [
+    "push rsi"
+  ],
+  "VD": [
+    "push rsi"
+  ],
+  "VE": [
+    "push rsi"
+  ],
+  "VF": [
+    "push rsi"
+  ],
+  "VG": [
+    "push rsi"
+  ],
+  "VH": [
+    "push rsi"
+  ],
+  "VI": [
+    "push rsi"
+  ],
+  "VJ": [
+    "push rsi"
+  ],
+  "VK": [
+    "push rsi"
+  ],
+  "VL": [
+    "push rsi"
+  ],
+  "VM": [
+    "push rsi"
+  ],
+  "VN": [
+    "push rsi"
+  ],
+  "VO": [
+    "push rsi"
+  ],
+  "VP": [
+    "push rsi",
+    "push rax"
+  ],
+  "VQ": [
+    "push rsi",
+    "push rcx"
+  ],
+  "VR": [
+    "push rsi",
+    "push rdx"
+  ],
+  "VS": [
+    "push rsi",
+    "push rbx"
+  ],
+  "VT": [
+    "push rsi",
+    "push rsp"
+  ],
+  "VU": [
+    "push rsi",
+    "push rbp"
+  ],
+  "VV": [
+    "push rsi",
+    "push rsi"
+  ],
+  "VW": [
+    "push rsi",
+    "push rdi"
+  ],
+  "VX": [
+    "push rsi",
+    "pop rax"
+  ],
+  "VY": [
+    "push rsi",
+    "pop rcx"
+  ],
+  "VZ": [
+    "push rsi",
+    "pop rdx"
+  ],
+  "Va": [
+    "push rsi"
+  ],
+  "Vb": [
+    "push rsi"
+  ],
+  "Vc": [
+    "push rsi"
+  ],
+  "Vd": [
+    "push rsi"
+  ],
+  "Ve": [
+    "push rsi"
+  ],
+  "Vf": [
+    "push rsi"
+  ],
+  "Vg": [
+    "push rsi"
+  ],
+  "Vh": [
+    "push rsi"
+  ],
+  "Vi": [
+    "push rsi"
+  ],
+  "Vj": [
+    "push rsi"
+  ],
+  "Vk": [
+    "push rsi"
+  ],
+  "Vl": [
+    "push rsi",
+    "insb byte ptr [rdi], dx"
+  ],
+  "Vm": [
+    "push rsi",
+    "insd dword ptr [rdi], dx"
+  ],
+  "Vn": [
+    "push rsi",
+    "outsb dx, byte ptr [rsi]"
+  ],
+  "Vo": [
+    "push rsi",
+    "outsd dx, dword ptr [rsi]"
+  ],
+  "Vp": [
+    "push rsi"
+  ],
+  "Vq": [
+    "push rsi"
+  ],
+  "Vr": [
+    "push rsi"
+  ],
+  "Vs": [
+    "push rsi"
+  ],
+  "Vt": [
+    "push rsi"
+  ],
+  "Vu": [
+    "push rsi"
+  ],
+  "Vv": [
+    "push rsi"
+  ],
+  "Vw": [
+    "push rsi"
+  ],
+  "Vx": [
+    "push rsi"
+  ],
+  "Vy": [
+    "push rsi"
+  ],
+  "Vz": [
+    "push rsi"
+  ],
+  "W0": [
+    "push rdi"
+  ],
+  "W1": [
+    "push rdi"
+  ],
+  "W2": [
+    "push rdi"
+  ],
+  "W3": [
+    "push rdi"
+  ],
+  "W4": [
+    "push rdi"
+  ],
+  "W5": [
+    "push rdi"
+  ],
+  "W6": [
+    "push rdi"
+  ],
+  "W7": [
+    "push rdi"
+  ],
+  "W8": [
+    "push rdi"
+  ],
+  "W9": [
+    "push rdi"
+  ],
+  "WA": [
+    "push rdi"
+  ],
+  "WB": [
+    "push rdi"
+  ],
+  "WC": [
+    "push rdi"
+  ],
+  "WD": [
+    "push rdi"
+  ],
+  "WE": [
+    "push rdi"
+  ],
+  "WF": [
+    "push rdi"
+  ],
+  "WG": [
+    "push rdi"
+  ],
+  "WH": [
+    "push rdi"
+  ],
+  "WI": [
+    "push rdi"
+  ],
+  "WJ": [
+    "push rdi"
+  ],
+  "WK": [
+    "push rdi"
+  ],
+  "WL": [
+    "push rdi"
+  ],
+  "WM": [
+    "push rdi"
+  ],
+  "WN": [
+    "push rdi"
+  ],
+  "WO": [
+    "push rdi"
+  ],
+  "WP": [
+    "push rdi",
+    "push rax"
+  ],
+  "WQ": [
+    "push rdi",
+    "push rcx"
+  ],
+  "WR": [
+    "push rdi",
+    "push rdx"
+  ],
+  "WS": [
+    "push rdi",
+    "push rbx"
+  ],
+  "WT": [
+    "push rdi",
+    "push rsp"
+  ],
+  "WU": [
+    "push rdi",
+    "push rbp"
+  ],
+  "WV": [
+    "push rdi",
+    "push rsi"
+  ],
+  "WW": [
+    "push rdi",
+    "push rdi"
+  ],
+  "WX": [
+    "push rdi",
+    "pop rax"
+  ],
+  "WY": [
+    "push rdi",
+    "pop rcx"
+  ],
+  "WZ": [
+    "push rdi",
+    "pop rdx"
+  ],
+  "Wa": [
+    "push rdi"
+  ],
+  "Wb": [
+    "push rdi"
+  ],
+  "Wc": [
+    "push rdi"
+  ],
+  "Wd": [
+    "push rdi"
+  ],
+  "We": [
+    "push rdi"
+  ],
+  "Wf": [
+    "push rdi"
+  ],
+  "Wg": [
+    "push rdi"
+  ],
+  "Wh": [
+    "push rdi"
+  ],
+  "Wi": [
+    "push rdi"
+  ],
+  "Wj": [
+    "push rdi"
+  ],
+  "Wk": [
+    "push rdi"
+  ],
+  "Wl": [
+    "push rdi",
+    "insb byte ptr [rdi], dx"
+  ],
+  "Wm": [
+    "push rdi",
+    "insd dword ptr [rdi], dx"
+  ],
+  "Wn": [
+    "push rdi",
+    "outsb dx, byte ptr [rsi]"
+  ],
+  "Wo": [
+    "push rdi",
+    "outsd dx, dword ptr [rsi]"
+  ],
+  "Wp": [
+    "push rdi"
+  ],
+  "Wq": [
+    "push rdi"
+  ],
+  "Wr": [
+    "push rdi"
+  ],
+  "Ws": [
+    "push rdi"
+  ],
+  "Wt": [
+    "push rdi"
+  ],
+  "Wu": [
+    "push rdi"
+  ],
+  "Wv": [
+    "push rdi"
+  ],
+  "Ww": [
+    "push rdi"
+  ],
+  "Wx": [
+    "push rdi"
+  ],
+  "Wy": [
+    "push rdi"
+  ],
+  "Wz": [
+    "push rdi"
+  ],
+  "X0": [
+    "pop rax"
+  ],
+  "X1": [
+    "pop rax"
+  ],
+  "X2": [
+    "pop rax"
+  ],
+  "X3": [
+    "pop rax"
+  ],
+  "X4": [
+    "pop rax"
+  ],
+  "X5": [
+    "pop rax"
+  ],
+  "X6": [
+    "pop rax"
+  ],
+  "X7": [
+    "pop rax"
+  ],
+  "X8": [
+    "pop rax"
+  ],
+  "X9": [
+    "pop rax"
+  ],
+  "XA": [
+    "pop rax"
+  ],
+  "XB": [
+    "pop rax"
+  ],
+  "XC": [
+    "pop rax"
+  ],
+  "XD": [
+    "pop rax"
+  ],
+  "XE": [
+    "pop rax"
+  ],
+  "XF": [
+    "pop rax"
+  ],
+  "XG": [
+    "pop rax"
+  ],
+  "XH": [
+    "pop rax"
+  ],
+  "XI": [
+    "pop rax"
+  ],
+  "XJ": [
+    "pop rax"
+  ],
+  "XK": [
+    "pop rax"
+  ],
+  "XL": [
+    "pop rax"
+  ],
+  "XM": [
+    "pop rax"
+  ],
+  "XN": [
+    "pop rax"
+  ],
+  "XO": [
+    "pop rax"
+  ],
+  "XP": [
+    "pop rax",
+    "push rax"
+  ],
+  "XQ": [
+    "pop rax",
+    "push rcx"
+  ],
+  "XR": [
+    "pop rax",
+    "push rdx"
+  ],
+  "XS": [
+    "pop rax",
+    "push rbx"
+  ],
+  "XT": [
+    "pop rax",
+    "push rsp"
+  ],
+  "XU": [
+    "pop rax",
+    "push rbp"
+  ],
+  "XV": [
+    "pop rax",
+    "push rsi"
+  ],
+  "XW": [
+    "pop rax",
+    "push rdi"
+  ],
+  "XX": [
+    "pop rax",
+    "pop rax"
+  ],
+  "XY": [
+    "pop rax",
+    "pop rcx"
+  ],
+  "XZ": [
+    "pop rax",
+    "pop rdx"
+  ],
+  "Xa": [
+    "pop rax"
+  ],
+  "Xb": [
+    "pop rax"
+  ],
+  "Xc": [
+    "pop rax"
+  ],
+  "Xd": [
+    "pop rax"
+  ],
+  "Xe": [
+    "pop rax"
+  ],
+  "Xf": [
+    "pop rax"
+  ],
+  "Xg": [
+    "pop rax"
+  ],
+  "Xh": [
+    "pop rax"
+  ],
+  "Xi": [
+    "pop rax"
+  ],
+  "Xj": [
+    "pop rax"
+  ],
+  "Xk": [
+    "pop rax"
+  ],
+  "Xl": [
+    "pop rax",
+    "insb byte ptr [rdi], dx"
+  ],
+  "Xm": [
+    "pop rax",
+    "insd dword ptr [rdi], dx"
+  ],
+  "Xn": [
+    "pop rax",
+    "outsb dx, byte ptr [rsi]"
+  ],
+  "Xo": [
+    "pop rax",
+    "outsd dx, dword ptr [rsi]"
+  ],
+  "Xp": [
+    "pop rax"
+  ],
+  "Xq": [
+    "pop rax"
+  ],
+  "Xr": [
+    "pop rax"
+  ],
+  "Xs": [
+    "pop rax"
+  ],
+  "Xt": [
+    "pop rax"
+  ],
+  "Xu": [
+    "pop rax"
+  ],
+  "Xv": [
+    "pop rax"
+  ],
+  "Xw": [
+    "pop rax"
+  ],
+  "Xx": [
+    "pop rax"
+  ],
+  "Xy": [
+    "pop rax"
+  ],
+  "Xz": [
+    "pop rax"
+  ],
+  "Y0": [
+    "pop rcx"
+  ],
+  "Y1": [
+    "pop rcx"
+  ],
+  "Y2": [
+    "pop rcx"
+  ],
+  "Y3": [
+    "pop rcx"
+  ],
+  "Y4": [
+    "pop rcx"
+  ],
+  "Y5": [
+    "pop rcx"
+  ],
+  "Y6": [
+    "pop rcx"
+  ],
+  "Y7": [
+    "pop rcx"
+  ],
+  "Y8": [
+    "pop rcx"
+  ],
+  "Y9": [
+    "pop rcx"
+  ],
+  "YA": [
+    "pop rcx"
+  ],
+  "YB": [
+    "pop rcx"
+  ],
+  "YC": [
+    "pop rcx"
+  ],
+  "YD": [
+    "pop rcx"
+  ],
+  "YE": [
+    "pop rcx"
+  ],
+  "YF": [
+    "pop rcx"
+  ],
+  "YG": [
+    "pop rcx"
+  ],
+  "YH": [
+    "pop rcx"
+  ],
+  "YI": [
+    "pop rcx"
+  ],
+  "YJ": [
+    "pop rcx"
+  ],
+  "YK": [
+    "pop rcx"
+  ],
+  "YL": [
+    "pop rcx"
+  ],
+  "YM": [
+    "pop rcx"
+  ],
+  "YN": [
+    "pop rcx"
+  ],
+  "YO": [
+    "pop rcx"
+  ],
+  "YP": [
+    "pop rcx",
+    "push rax"
+  ],
+  "YQ": [
+    "pop rcx",
+    "push rcx"
+  ],
+  "YR": [
+    "pop rcx",
+    "push rdx"
+  ],
+  "YS": [
+    "pop rcx",
+    "push rbx"
+  ],
+  "YT": [
+    "pop rcx",
+    "push rsp"
+  ],
+  "YU": [
+    "pop rcx",
+    "push rbp"
+  ],
+  "YV": [
+    "pop rcx",
+    "push rsi"
+  ],
+  "YW": [
+    "pop rcx",
+    "push rdi"
+  ],
+  "YX": [
+    "pop rcx",
+    "pop rax"
+  ],
+  "YY": [
+    "pop rcx",
+    "pop rcx"
+  ],
+  "YZ": [
+    "pop rcx",
+    "pop rdx"
+  ],
+  "Ya": [
+    "pop rcx"
+  ],
+  "Yb": [
+    "pop rcx"
+  ],
+  "Yc": [
+    "pop rcx"
+  ],
+  "Yd": [
+    "pop rcx"
+  ],
+  "Ye": [
+    "pop rcx"
+  ],
+  "Yf": [
+    "pop rcx"
+  ],
+  "Yg": [
+    "pop rcx"
+  ],
+  "Yh": [
+    "pop rcx"
+  ],
+  "Yi": [
+    "pop rcx"
+  ],
+  "Yj": [
+    "pop rcx"
+  ],
+  "Yk": [
+    "pop rcx"
+  ],
+  "Yl": [
+    "pop rcx",
+    "insb byte ptr [rdi], dx"
+  ],
+  "Ym": [
+    "pop rcx",
+    "insd dword ptr [rdi], dx"
+  ],
+  "Yn": [
+    "pop rcx",
+    "outsb dx, byte ptr [rsi]"
+  ],
+  "Yo": [
+    "pop rcx",
+    "outsd dx, dword ptr [rsi]"
+  ],
+  "Yp": [
+    "pop rcx"
+  ],
+  "Yq": [
+    "pop rcx"
+  ],
+  "Yr": [
+    "pop rcx"
+  ],
+  "Ys": [
+    "pop rcx"
+  ],
+  "Yt": [
+    "pop rcx"
+  ],
+  "Yu": [
+    "pop rcx"
+  ],
+  "Yv": [
+    "pop rcx"
+  ],
+  "Yw": [
+    "pop rcx"
+  ],
+  "Yx": [
+    "pop rcx"
+  ],
+  "Yy": [
+    "pop rcx"
+  ],
+  "Yz": [
+    "pop rcx"
+  ],
+  "Z0": [
+    "pop rdx"
+  ],
+  "Z1": [
+    "pop rdx"
+  ],
+  "Z2": [
+    "pop rdx"
+  ],
+  "Z3": [
+    "pop rdx"
+  ],
+  "Z4": [
+    "pop rdx"
+  ],
+  "Z5": [
+    "pop rdx"
+  ],
+  "Z6": [
+    "pop rdx"
+  ],
+  "Z7": [
+    "pop rdx"
+  ],
+  "Z8": [
+    "pop rdx"
+  ],
+  "Z9": [
+    "pop rdx"
+  ],
+  "ZA": [
+    "pop rdx"
+  ],
+  "ZB": [
+    "pop rdx"
+  ],
+  "ZC": [
+    "pop rdx"
+  ],
+  "ZD": [
+    "pop rdx"
+  ],
+  "ZE": [
+    "pop rdx"
+  ],
+  "ZF": [
+    "pop rdx"
+  ],
+  "ZG": [
+    "pop rdx"
+  ],
+  "ZH": [
+    "pop rdx"
+  ],
+  "ZI": [
+    "pop rdx"
+  ],
+  "ZJ": [
+    "pop rdx"
+  ],
+  "ZK": [
+    "pop rdx"
+  ],
+  "ZL": [
+    "pop rdx"
+  ],
+  "ZM": [
+    "pop rdx"
+  ],
+  "ZN": [
+    "pop rdx"
+  ],
+  "ZO": [
+    "pop rdx"
+  ],
+  "ZP": [
+    "pop rdx",
+    "push rax"
+  ],
+  "ZQ": [
+    "pop rdx",
+    "push rcx"
+  ],
+  "ZR": [
+    "pop rdx",
+    "push rdx"
+  ],
+  "ZS": [
+    "pop rdx",
+    "push rbx"
+  ],
+  "ZT": [
+    "pop rdx",
+    "push rsp"
+  ],
+  "ZU": [
+    "pop rdx",
+    "push rbp"
+  ],
+  "ZV": [
+    "pop rdx",
+    "push rsi"
+  ],
+  "ZW": [
+    "pop rdx",
+    "push rdi"
+  ],
+  "ZX": [
+    "pop rdx",
+    "pop rax"
+  ],
+  "ZY": [
+    "pop rdx",
+    "pop rcx"
+  ],
+  "ZZ": [
+    "pop rdx",
+    "pop rdx"
+  ],
+  "Za": [
+    "pop rdx"
+  ],
+  "Zb": [
+    "pop rdx"
+  ],
+  "Zc": [
+    "pop rdx"
+  ],
+  "Zd": [
+    "pop rdx"
+  ],
+  "Ze": [
+    "pop rdx"
+  ],
+  "Zf": [
+    "pop rdx"
+  ],
+  "Zg": [
+    "pop rdx"
+  ],
+  "Zh": [
+    "pop rdx"
+  ],
+  "Zi": [
+    "pop rdx"
+  ],
+  "Zj": [
+    "pop rdx"
+  ],
+  "Zk": [
+    "pop rdx"
+  ],
+  "Zl": [
+    "pop rdx",
+    "insb byte ptr [rdi], dx"
+  ],
+  "Zm": [
+    "pop rdx",
+    "insd dword ptr [rdi], dx"
+  ],
+  "Zn": [
+    "pop rdx",
+    "outsb dx, byte ptr [rsi]"
+  ],
+  "Zo": [
+    "pop rdx",
+    "outsd dx, dword ptr [rsi]"
+  ],
+  "Zp": [
+    "pop rdx"
+  ],
+  "Zq": [
+    "pop rdx"
+  ],
+  "Zr": [
+    "pop rdx"
+  ],
+  "Zs": [
+    "pop rdx"
+  ],
+  "Zt": [
+    "pop rdx"
+  ],
+  "Zu": [
+    "pop rdx"
+  ],
+  "Zv": [
+    "pop rdx"
+  ],
+  "Zw": [
+    "pop rdx"
+  ],
+  "Zx": [
+    "pop rdx"
+  ],
+  "Zy": [
+    "pop rdx"
+  ],
+  "Zz": [
+    "pop rdx"
+  ],
+  "c0": [
+    "movsxd rsi, dword ptr [rax]"
+  ],
+  "c1": [
+    "movsxd rsi, dword ptr [rcx]"
+  ],
+  "c2": [
+    "movsxd rsi, dword ptr [rdx]"
+  ],
+  "c3": [
+    "movsxd rsi, dword ptr [rbx]"
+  ],
+  "c6": [
+    "movsxd rsi, dword ptr [rsi]"
+  ],
+  "c7": [
+    "movsxd rsi, dword ptr [rdi]"
+  ],
+  "c8": [
+    "movsxd rdi, dword ptr [rax]"
+  ],
+  "c9": [
+    "movsxd rdi, dword ptr [rcx]"
+  ],
+  "dP": [
+    "push rax"
+  ],
+  "dQ": [
+    "push rcx"
+  ],
+  "dR": [
+    "push rdx"
+  ],
+  "dS": [
+    "push rbx"
+  ],
+  "dT": [
+    "push rsp"
+  ],
+  "dU": [
+    "push rbp"
+  ],
+  "dV": [
+    "push rsi"
+  ],
+  "dW": [
+    "push rdi"
+  ],
+  "dX": [
+    "pop rax"
+  ],
+  "dY": [
+    "pop rcx"
+  ],
+  "dZ": [
+    "pop rdx"
+  ],
+  "dl": [
+    "insb byte ptr [rdi], dx"
+  ],
+  "dm": [
+    "insd dword ptr [rdi], dx"
+  ],
+  "dn": [
+    "outsb dx, byte ptr fs:[rsi]"
+  ],
+  "do": [
+    "outsd dx, dword ptr fs:[rsi]"
+  ],
+  "eP": [
+    "push rax"
+  ],
+  "eQ": [
+    "push rcx"
+  ],
+  "eR": [
+    "push rdx"
+  ],
+  "eS": [
+    "push rbx"
+  ],
+  "eT": [
+    "push rsp"
+  ],
+  "eU": [
+    "push rbp"
+  ],
+  "eV": [
+    "push rsi"
+  ],
+  "eW": [
+    "push rdi"
+  ],
+  "eX": [
+    "pop rax"
+  ],
+  "eY": [
+    "pop rcx"
+  ],
+  "eZ": [
+    "pop rdx"
+  ],
+  "el": [
+    "insb byte ptr [rdi], dx"
+  ],
+  "em": [
+    "insd dword ptr [rdi], dx"
+  ],
+  "en": [
+    "outsb dx, byte ptr gs:[rsi]"
+  ],
+  "eo": [
+    "outsd dx, dword ptr gs:[rsi]"
+  ],
+  "fP": [
+    "push ax"
+  ],
+  "fQ": [
+    "push cx"
+  ],
+  "fR": [
+    "push dx"
+  ],
+  "fS": [
+    "push bx"
+  ],
+  "fT": [
+    "push sp"
+  ],
+  "fU": [
+    "push bp"
+  ],
+  "fV": [
+    "push si"
+  ],
+  "fW": [
+    "push di"
+  ],
+  "fX": [
+    "pop ax"
+  ],
+  "fY": [
+    "pop cx"
+  ],
+  "fZ": [
+    "pop dx"
+  ],
+  "fl": [
+    "insb byte ptr [rdi], dx"
+  ],
+  "fm": [
+    "insw word ptr [rdi], dx"
+  ],
+  "fn": [
+    "outsb dx, byte ptr [rsi]"
+  ],
+  "fo": [
+    "outsw dx, word ptr [rsi]"
+  ],
+  "gP": [
+    "push rax"
+  ],
+  "gQ": [
+    "push rcx"
+  ],
+  "gR": [
+    "push rdx"
+  ],
+  "gS": [
+    "push rbx"
+  ],
+  "gT": [
+    "push rsp"
+  ],
+  "gU": [
+    "push rbp"
+  ],
+  "gV": [
+    "push rsi"
+  ],
+  "gW": [
+    "push rdi"
+  ],
+  "gX": [
+    "pop rax"
+  ],
+  "gY": [
+    "pop rcx"
+  ],
+  "gZ": [
+    "pop rdx"
+  ],
+  "gl": [
+    "insb byte ptr [edi], dx"
+  ],
+  "gm": [
+    "insd dword ptr [edi], dx"
+  ],
+  "gn": [
+    "outsb dx, byte ptr [esi]"
+  ],
+  "go": [
+    "outsd dx, dword ptr [esi]"
+  ],
+  "j0": [
+    "push 0x30"
+  ],
+  "j1": [
+    "push 0x31"
+  ],
+  "j2": [
+    "push 0x32"
+  ],
+  "j3": [
+    "push 0x33"
+  ],
+  "j4": [
+    "push 0x34"
+  ],
+  "j5": [
+    "push 0x35"
+  ],
+  "j6": [
+    "push 0x36"
+  ],
+  "j7": [
+    "push 0x37"
+  ],
+  "j8": [
+    "push 0x38"
+  ],
+  "j9": [
+    "push 0x39"
+  ],
+  "jA": [
+    "push 0x41"
+  ],
+  "jB": [
+    "push 0x42"
+  ],
+  "jC": [
+    "push 0x43"
+  ],
+  "jD": [
+    "push 0x44"
+  ],
+  "jE": [
+    "push 0x45"
+  ],
+  "jF": [
+    "push 0x46"
+  ],
+  "jG": [
+    "push 0x47"
+  ],
+  "jH": [
+    "push 0x48"
+  ],
+  "jI": [
+    "push 0x49"
+  ],
+  "jJ": [
+    "push 0x4a"
+  ],
+  "jK": [
+    "push 0x4b"
+  ],
+  "jL": [
+    "push 0x4c"
+  ],
+  "jM": [
+    "push 0x4d"
+  ],
+  "jN": [
+    "push 0x4e"
+  ],
+  "jO": [
+    "push 0x4f"
+  ],
+  "jP": [
+    "push 0x50"
+  ],
+  "jQ": [
+    "push 0x51"
+  ],
+  "jR": [
+    "push 0x52"
+  ],
+  "jS": [
+    "push 0x53"
+  ],
+  "jT": [
+    "push 0x54"
+  ],
+  "jU": [
+    "push 0x55"
+  ],
+  "jV": [
+    "push 0x56"
+  ],
+  "jW": [
+    "push 0x57"
+  ],
+  "jX": [
+    "push 0x58"
+  ],
+  "jY": [
+    "push 0x59"
+  ],
+  "jZ": [
+    "push 0x5a"
+  ],
+  "ja": [
+    "push 0x61"
+  ],
+  "jb": [
+    "push 0x62"
+  ],
+  "jc": [
+    "push 0x63"
+  ],
+  "jd": [
+    "push 0x64"
+  ],
+  "je": [
+    "push 0x65"
+  ],
+  "jf": [
+    "push 0x66"
+  ],
+  "jg": [
+    "push 0x67"
+  ],
+  "jh": [
+    "push 0x68"
+  ],
+  "ji": [
+    "push 0x69"
+  ],
+  "jj": [
+    "push 0x6a"
+  ],
+  "jk": [
+    "push 0x6b"
+  ],
+  "jl": [
+    "push 0x6c"
+  ],
+  "jm": [
+    "push 0x6d"
+  ],
+  "jn": [
+    "push 0x6e"
+  ],
+  "jo": [
+    "push 0x6f"
+  ],
+  "jp": [
+    "push 0x70"
+  ],
+  "jq": [
+    "push 0x71"
+  ],
+  "jr": [
+    "push 0x72"
+  ],
+  "js": [
+    "push 0x73"
+  ],
+  "jt": [
+    "push 0x74"
+  ],
+  "ju": [
+    "push 0x75"
+  ],
+  "jv": [
+    "push 0x76"
+  ],
+  "jw": [
+    "push 0x77"
+  ],
+  "jx": [
+    "push 0x78"
+  ],
+  "jy": [
+    "push 0x79"
+  ],
+  "jz": [
+    "push 0x7a"
+  ],
+  "l0": [
+    "insb byte ptr [rdi], dx"
+  ],
+  "l1": [
+    "insb byte ptr [rdi], dx"
+  ],
+  "l2": [
+    "insb byte ptr [rdi], dx"
+  ],
+  "l3": [
+    "insb byte ptr [rdi], dx"
+  ],
+  "l4": [
+    "insb byte ptr [rdi], dx"
+  ],
+  "l5": [
+    "insb byte ptr [rdi], dx"
+  ],
+  "l6": [
+    "insb byte ptr [rdi], dx"
+  ],
+  "l7": [
+    "insb byte ptr [rdi], dx"
+  ],
+  "l8": [
+    "insb byte ptr [rdi], dx"
+  ],
+  "l9": [
+    "insb byte ptr [rdi], dx"
+  ],
+  "lA": [
+    "insb byte ptr [rdi], dx"
+  ],
+  "lB": [
+    "insb byte ptr [rdi], dx"
+  ],
+  "lC": [
+    "insb byte ptr [rdi], dx"
+  ],
+  "lD": [
+    "insb byte ptr [rdi], dx"
+  ],
+  "lE": [
+    "insb byte ptr [rdi], dx"
+  ],
+  "lF": [
+    "insb byte ptr [rdi], dx"
+  ],
+  "lG": [
+    "insb byte ptr [rdi], dx"
+  ],
+  "lH": [
+    "insb byte ptr [rdi], dx"
+  ],
+  "lI": [
+    "insb byte ptr [rdi], dx"
+  ],
+  "lJ": [
+    "insb byte ptr [rdi], dx"
+  ],
+  "lK": [
+    "insb byte ptr [rdi], dx"
+  ],
+  "lL": [
+    "insb byte ptr [rdi], dx"
+  ],
+  "lM": [
+    "insb byte ptr [rdi], dx"
+  ],
+  "lN": [
+    "insb byte ptr [rdi], dx"
+  ],
+  "lO": [
+    "insb byte ptr [rdi], dx"
+  ],
+  "lP": [
+    "insb byte ptr [rdi], dx",
+    "push rax"
+  ],
+  "lQ": [
+    "insb byte ptr [rdi], dx",
+    "push rcx"
+  ],
+  "lR": [
+    "insb byte ptr [rdi], dx",
+    "push rdx"
+  ],
+  "lS": [
+    "insb byte ptr [rdi], dx",
+    "push rbx"
+  ],
+  "lT": [
+    "insb byte ptr [rdi], dx",
+    "push rsp"
+  ],
+  "lU": [
+    "insb byte ptr [rdi], dx",
+    "push rbp"
+  ],
+  "lV": [
+    "insb byte ptr [rdi], dx",
+    "push rsi"
+  ],
+  "lW": [
+    "insb byte ptr [rdi], dx",
+    "push rdi"
+  ],
+  "lX": [
+    "insb byte ptr [rdi], dx",
+    "pop rax"
+  ],
+  "lY": [
+    "insb byte ptr [rdi], dx",
+    "pop rcx"
+  ],
+  "lZ": [
+    "insb byte ptr [rdi], dx",
+    "pop rdx"
+  ],
+  "la": [
+    "insb byte ptr [rdi], dx"
+  ],
+  "lb": [
+    "insb byte ptr [rdi], dx"
+  ],
+  "lc": [
+    "insb byte ptr [rdi], dx"
+  ],
+  "ld": [
+    "insb byte ptr [rdi], dx"
+  ],
+  "le": [
+    "insb byte ptr [rdi], dx"
+  ],
+  "lf": [
+    "insb byte ptr [rdi], dx"
+  ],
+  "lg": [
+    "insb byte ptr [rdi], dx"
+  ],
+  "lh": [
+    "insb byte ptr [rdi], dx"
+  ],
+  "li": [
+    "insb byte ptr [rdi], dx"
+  ],
+  "lj": [
+    "insb byte ptr [rdi], dx"
+  ],
+  "lk": [
+    "insb byte ptr [rdi], dx"
+  ],
+  "ll": [
+    "insb byte ptr [rdi], dx",
+    "insb byte ptr [rdi], dx"
+  ],
+  "lm": [
+    "insb byte ptr [rdi], dx",
+    "insd dword ptr [rdi], dx"
+  ],
+  "ln": [
+    "insb byte ptr [rdi], dx",
+    "outsb dx, byte ptr [rsi]"
+  ],
+  "lo": [
+    "insb byte ptr [rdi], dx",
+    "outsd dx, dword ptr [rsi]"
+  ],
+  "lp": [
+    "insb byte ptr [rdi], dx"
+  ],
+  "lq": [
+    "insb byte ptr [rdi], dx"
+  ],
+  "lr": [
+    "insb byte ptr [rdi], dx"
+  ],
+  "ls": [
+    "insb byte ptr [rdi], dx"
+  ],
+  "lt": [
+    "insb byte ptr [rdi], dx"
+  ],
+  "lu": [
+    "insb byte ptr [rdi], dx"
+  ],
+  "lv": [
+    "insb byte ptr [rdi], dx"
+  ],
+  "lw": [
+    "insb byte ptr [rdi], dx"
+  ],
+  "lx": [
+    "insb byte ptr [rdi], dx"
+  ],
+  "ly": [
+    "insb byte ptr [rdi], dx"
+  ],
+  "lz": [
+    "insb byte ptr [rdi], dx"
+  ],
+  "m0": [
+    "insd dword ptr [rdi], dx"
+  ],
+  "m1": [
+    "insd dword ptr [rdi], dx"
+  ],
+  "m2": [
+    "insd dword ptr [rdi], dx"
+  ],
+  "m3": [
+    "insd dword ptr [rdi], dx"
+  ],
+  "m4": [
+    "insd dword ptr [rdi], dx"
+  ],
+  "m5": [
+    "insd dword ptr [rdi], dx"
+  ],
+  "m6": [
+    "insd dword ptr [rdi], dx"
+  ],
+  "m7": [
+    "insd dword ptr [rdi], dx"
+  ],
+  "m8": [
+    "insd dword ptr [rdi], dx"
+  ],
+  "m9": [
+    "insd dword ptr [rdi], dx"
+  ],
+  "mA": [
+    "insd dword ptr [rdi], dx"
+  ],
+  "mB": [
+    "insd dword ptr [rdi], dx"
+  ],
+  "mC": [
+    "insd dword ptr [rdi], dx"
+  ],
+  "mD": [
+    "insd dword ptr [rdi], dx"
+  ],
+  "mE": [
+    "insd dword ptr [rdi], dx"
+  ],
+  "mF": [
+    "insd dword ptr [rdi], dx"
+  ],
+  "mG": [
+    "insd dword ptr [rdi], dx"
+  ],
+  "mH": [
+    "insd dword ptr [rdi], dx"
+  ],
+  "mI": [
+    "insd dword ptr [rdi], dx"
+  ],
+  "mJ": [
+    "insd dword ptr [rdi], dx"
+  ],
+  "mK": [
+    "insd dword ptr [rdi], dx"
+  ],
+  "mL": [
+    "insd dword ptr [rdi], dx"
+  ],
+  "mM": [
+    "insd dword ptr [rdi], dx"
+  ],
+  "mN": [
+    "insd dword ptr [rdi], dx"
+  ],
+  "mO": [
+    "insd dword ptr [rdi], dx"
+  ],
+  "mP": [
+    "insd dword ptr [rdi], dx",
+    "push rax"
+  ],
+  "mQ": [
+    "insd dword ptr [rdi], dx",
+    "push rcx"
+  ],
+  "mR": [
+    "insd dword ptr [rdi], dx",
+    "push rdx"
+  ],
+  "mS": [
+    "insd dword ptr [rdi], dx",
+    "push rbx"
+  ],
+  "mT": [
+    "insd dword ptr [rdi], dx",
+    "push rsp"
+  ],
+  "mU": [
+    "insd dword ptr [rdi], dx",
+    "push rbp"
+  ],
+  "mV": [
+    "insd dword ptr [rdi], dx",
+    "push rsi"
+  ],
+  "mW": [
+    "insd dword ptr [rdi], dx",
+    "push rdi"
+  ],
+  "mX": [
+    "insd dword ptr [rdi], dx",
+    "pop rax"
+  ],
+  "mY": [
+    "insd dword ptr [rdi], dx",
+    "pop rcx"
+  ],
+  "mZ": [
+    "insd dword ptr [rdi], dx",
+    "pop rdx"
+  ],
+  "ma": [
+    "insd dword ptr [rdi], dx"
+  ],
+  "mb": [
+    "insd dword ptr [rdi], dx"
+  ],
+  "mc": [
+    "insd dword ptr [rdi], dx"
+  ],
+  "md": [
+    "insd dword ptr [rdi], dx"
+  ],
+  "me": [
+    "insd dword ptr [rdi], dx"
+  ],
+  "mf": [
+    "insd dword ptr [rdi], dx"
+  ],
+  "mg": [
+    "insd dword ptr [rdi], dx"
+  ],
+  "mh": [
+    "insd dword ptr [rdi], dx"
+  ],
+  "mi": [
+    "insd dword ptr [rdi], dx"
+  ],
+  "mj": [
+    "insd dword ptr [rdi], dx"
+  ],
+  "mk": [
+    "insd dword ptr [rdi], dx"
+  ],
+  "ml": [
+    "insd dword ptr [rdi], dx",
+    "insb byte ptr [rdi], dx"
+  ],
+  "mm": [
+    "insd dword ptr [rdi], dx",
+    "insd dword ptr [rdi], dx"
+  ],
+  "mn": [
+    "insd dword ptr [rdi], dx",
+    "outsb dx, byte ptr [rsi]"
+  ],
+  "mo": [
+    "insd dword ptr [rdi], dx",
+    "outsd dx, dword ptr [rsi]"
+  ],
+  "mp": [
+    "insd dword ptr [rdi], dx"
+  ],
+  "mq": [
+    "insd dword ptr [rdi], dx"
+  ],
+  "mr": [
+    "insd dword ptr [rdi], dx"
+  ],
+  "ms": [
+    "insd dword ptr [rdi], dx"
+  ],
+  "mt": [
+    "insd dword ptr [rdi], dx"
+  ],
+  "mu": [
+    "insd dword ptr [rdi], dx"
+  ],
+  "mv": [
+    "insd dword ptr [rdi], dx"
+  ],
+  "mw": [
+    "insd dword ptr [rdi], dx"
+  ],
+  "mx": [
+    "insd dword ptr [rdi], dx"
+  ],
+  "my": [
+    "insd dword ptr [rdi], dx"
+  ],
+  "mz": [
+    "insd dword ptr [rdi], dx"
+  ],
+  "n0": [
+    "outsb dx, byte ptr [rsi]"
+  ],
+  "n1": [
+    "outsb dx, byte ptr [rsi]"
+  ],
+  "n2": [
+    "outsb dx, byte ptr [rsi]"
+  ],
+  "n3": [
+    "outsb dx, byte ptr [rsi]"
+  ],
+  "n4": [
+    "outsb dx, byte ptr [rsi]"
+  ],
+  "n5": [
+    "outsb dx, byte ptr [rsi]"
+  ],
+  "n6": [
+    "outsb dx, byte ptr [rsi]"
+  ],
+  "n7": [
+    "outsb dx, byte ptr [rsi]"
+  ],
+  "n8": [
+    "outsb dx, byte ptr [rsi]"
+  ],
+  "n9": [
+    "outsb dx, byte ptr [rsi]"
+  ],
+  "nA": [
+    "outsb dx, byte ptr [rsi]"
+  ],
+  "nB": [
+    "outsb dx, byte ptr [rsi]"
+  ],
+  "nC": [
+    "outsb dx, byte ptr [rsi]"
+  ],
+  "nD": [
+    "outsb dx, byte ptr [rsi]"
+  ],
+  "nE": [
+    "outsb dx, byte ptr [rsi]"
+  ],
+  "nF": [
+    "outsb dx, byte ptr [rsi]"
+  ],
+  "nG": [
+    "outsb dx, byte ptr [rsi]"
+  ],
+  "nH": [
+    "outsb dx, byte ptr [rsi]"
+  ],
+  "nI": [
+    "outsb dx, byte ptr [rsi]"
+  ],
+  "nJ": [
+    "outsb dx, byte ptr [rsi]"
+  ],
+  "nK": [
+    "outsb dx, byte ptr [rsi]"
+  ],
+  "nL": [
+    "outsb dx, byte ptr [rsi]"
+  ],
+  "nM": [
+    "outsb dx, byte ptr [rsi]"
+  ],
+  "nN": [
+    "outsb dx, byte ptr [rsi]"
+  ],
+  "nO": [
+    "outsb dx, byte ptr [rsi]"
+  ],
+  "nP": [
+    "outsb dx, byte ptr [rsi]",
+    "push rax"
+  ],
+  "nQ": [
+    "outsb dx, byte ptr [rsi]",
+    "push rcx"
+  ],
+  "nR": [
+    "outsb dx, byte ptr [rsi]",
+    "push rdx"
+  ],
+  "nS": [
+    "outsb dx, byte ptr [rsi]",
+    "push rbx"
+  ],
+  "nT": [
+    "outsb dx, byte ptr [rsi]",
+    "push rsp"
+  ],
+  "nU": [
+    "outsb dx, byte ptr [rsi]",
+    "push rbp"
+  ],
+  "nV": [
+    "outsb dx, byte ptr [rsi]",
+    "push rsi"
+  ],
+  "nW": [
+    "outsb dx, byte ptr [rsi]",
+    "push rdi"
+  ],
+  "nX": [
+    "outsb dx, byte ptr [rsi]",
+    "pop rax"
+  ],
+  "nY": [
+    "outsb dx, byte ptr [rsi]",
+    "pop rcx"
+  ],
+  "nZ": [
+    "outsb dx, byte ptr [rsi]",
+    "pop rdx"
+  ],
+  "na": [
+    "outsb dx, byte ptr [rsi]"
+  ],
+  "nb": [
+    "outsb dx, byte ptr [rsi]"
+  ],
+  "nc": [
+    "outsb dx, byte ptr [rsi]"
+  ],
+  "nd": [
+    "outsb dx, byte ptr [rsi]"
+  ],
+  "ne": [
+    "outsb dx, byte ptr [rsi]"
+  ],
+  "nf": [
+    "outsb dx, byte ptr [rsi]"
+  ],
+  "ng": [
+    "outsb dx, byte ptr [rsi]"
+  ],
+  "nh": [
+    "outsb dx, byte ptr [rsi]"
+  ],
+  "ni": [
+    "outsb dx, byte ptr [rsi]"
+  ],
+  "nj": [
+    "outsb dx, byte ptr [rsi]"
+  ],
+  "nk": [
+    "outsb dx, byte ptr [rsi]"
+  ],
+  "nl": [
+    "outsb dx, byte ptr [rsi]",
+    "insb byte ptr [rdi], dx"
+  ],
+  "nm": [
+    "outsb dx, byte ptr [rsi]",
+    "insd dword ptr [rdi], dx"
+  ],
+  "nn": [
+    "outsb dx, byte ptr [rsi]",
+    "outsb dx, byte ptr [rsi]"
+  ],
+  "no": [
+    "outsb dx, byte ptr [rsi]",
+    "outsd dx, dword ptr [rsi]"
+  ],
+  "np": [
+    "outsb dx, byte ptr [rsi]"
+  ],
+  "nq": [
+    "outsb dx, byte ptr [rsi]"
+  ],
+  "nr": [
+    "outsb dx, byte ptr [rsi]"
+  ],
+  "ns": [
+    "outsb dx, byte ptr [rsi]"
+  ],
+  "nt": [
+    "outsb dx, byte ptr [rsi]"
+  ],
+  "nu": [
+    "outsb dx, byte ptr [rsi]"
+  ],
+  "nv": [
+    "outsb dx, byte ptr [rsi]"
+  ],
+  "nw": [
+    "outsb dx, byte ptr [rsi]"
+  ],
+  "nx": [
+    "outsb dx, byte ptr [rsi]"
+  ],
+  "ny": [
+    "outsb dx, byte ptr [rsi]"
+  ],
+  "nz": [
+    "outsb dx, byte ptr [rsi]"
+  ],
+  "o0": [
+    "outsd dx, dword ptr [rsi]"
+  ],
+  "o1": [
+    "outsd dx, dword ptr [rsi]"
+  ],
+  "o2": [
+    "outsd dx, dword ptr [rsi]"
+  ],
+  "o3": [
+    "outsd dx, dword ptr [rsi]"
+  ],
+  "o4": [
+    "outsd dx, dword ptr [rsi]"
+  ],
+  "o5": [
+    "outsd dx, dword ptr [rsi]"
+  ],
+  "o6": [
+    "outsd dx, dword ptr [rsi]"
+  ],
+  "o7": [
+    "outsd dx, dword ptr [rsi]"
+  ],
+  "o8": [
+    "outsd dx, dword ptr [rsi]"
+  ],
+  "o9": [
+    "outsd dx, dword ptr [rsi]"
+  ],
+  "oA": [
+    "outsd dx, dword ptr [rsi]"
+  ],
+  "oB": [
+    "outsd dx, dword ptr [rsi]"
+  ],
+  "oC": [
+    "outsd dx, dword ptr [rsi]"
+  ],
+  "oD": [
+    "outsd dx, dword ptr [rsi]"
+  ],
+  "oE": [
+    "outsd dx, dword ptr [rsi]"
+  ],
+  "oF": [
+    "outsd dx, dword ptr [rsi]"
+  ],
+  "oG": [
+    "outsd dx, dword ptr [rsi]"
+  ],
+  "oH": [
+    "outsd dx, dword ptr [rsi]"
+  ],
+  "oI": [
+    "outsd dx, dword ptr [rsi]"
+  ],
+  "oJ": [
+    "outsd dx, dword ptr [rsi]"
+  ],
+  "oK": [
+    "outsd dx, dword ptr [rsi]"
+  ],
+  "oL": [
+    "outsd dx, dword ptr [rsi]"
+  ],
+  "oM": [
+    "outsd dx, dword ptr [rsi]"
+  ],
+  "oN": [
+    "outsd dx, dword ptr [rsi]"
+  ],
+  "oO": [
+    "outsd dx, dword ptr [rsi]"
+  ],
+  "oP": [
+    "outsd dx, dword ptr [rsi]",
+    "push rax"
+  ],
+  "oQ": [
+    "outsd dx, dword ptr [rsi]",
+    "push rcx"
+  ],
+  "oR": [
+    "outsd dx, dword ptr [rsi]",
+    "push rdx"
+  ],
+  "oS": [
+    "outsd dx, dword ptr [rsi]",
+    "push rbx"
+  ],
+  "oT": [
+    "outsd dx, dword ptr [rsi]",
+    "push rsp"
+  ],
+  "oU": [
+    "outsd dx, dword ptr [rsi]",
+    "push rbp"
+  ],
+  "oV": [
+    "outsd dx, dword ptr [rsi]",
+    "push rsi"
+  ],
+  "oW": [
+    "outsd dx, dword ptr [rsi]",
+    "push rdi"
+  ],
+  "oX": [
+    "outsd dx, dword ptr [rsi]",
+    "pop rax"
+  ],
+  "oY": [
+    "outsd dx, dword ptr [rsi]",
+    "pop rcx"
+  ],
+  "oZ": [
+    "outsd dx, dword ptr [rsi]",
+    "pop rdx"
+  ],
+  "oa": [
+    "outsd dx, dword ptr [rsi]"
+  ],
+  "ob": [
+    "outsd dx, dword ptr [rsi]"
+  ],
+  "oc": [
+    "outsd dx, dword ptr [rsi]"
+  ],
+  "od": [
+    "outsd dx, dword ptr [rsi]"
+  ],
+  "oe": [
+    "outsd dx, dword ptr [rsi]"
+  ],
+  "of": [
+    "outsd dx, dword ptr [rsi]"
+  ],
+  "og": [
+    "outsd dx, dword ptr [rsi]"
+  ],
+  "oh": [
+    "outsd dx, dword ptr [rsi]"
+  ],
+  "oi": [
+    "outsd dx, dword ptr [rsi]"
+  ],
+  "oj": [
+    "outsd dx, dword ptr [rsi]"
+  ],
+  "ok": [
+    "outsd dx, dword ptr [rsi]"
+  ],
+  "ol": [
+    "outsd dx, dword ptr [rsi]",
+    "insb byte ptr [rdi], dx"
+  ],
+  "om": [
+    "outsd dx, dword ptr [rsi]",
+    "insd dword ptr [rdi], dx"
+  ],
+  "on": [
+    "outsd dx, dword ptr [rsi]",
+    "outsb dx, byte ptr [rsi]"
+  ],
+  "oo": [
+    "outsd dx, dword ptr [rsi]",
+    "outsd dx, dword ptr [rsi]"
+  ],
+  "op": [
+    "outsd dx, dword ptr [rsi]"
+  ],
+  "oq": [
+    "outsd dx, dword ptr [rsi]"
+  ],
+  "or": [
+    "outsd dx, dword ptr [rsi]"
+  ],
+  "os": [
+    "outsd dx, dword ptr [rsi]"
+  ],
+  "ot": [
+    "outsd dx, dword ptr [rsi]"
+  ],
+  "ou": [
+    "outsd dx, dword ptr [rsi]"
+  ],
+  "ov": [
+    "outsd dx, dword ptr [rsi]"
+  ],
+  "ow": [
+    "outsd dx, dword ptr [rsi]"
+  ],
+  "ox": [
+    "outsd dx, dword ptr [rsi]"
+  ],
+  "oy": [
+    "outsd dx, dword ptr [rsi]"
+  ],
+  "oz": [
+    "outsd dx, dword ptr [rsi]"
+  ],
+  "p0": [
+    "jo 0x1032"
+  ],
+  "p1": [
+    "jo 0x1033"
+  ],
+  "p2": [
+    "jo 0x1034"
+  ],
+  "p3": [
+    "jo 0x1035"
+  ],
+  "p4": [
+    "jo 0x1036"
+  ],
+  "p5": [
+    "jo 0x1037"
+  ],
+  "p6": [
+    "jo 0x1038"
+  ],
+  "p7": [
+    "jo 0x1039"
+  ],
+  "p8": [
+    "jo 0x103a"
+  ],
+  "p9": [
+    "jo 0x103b"
+  ],
+  "pA": [
+    "jo 0x1043"
+  ],
+  "pB": [
+    "jo 0x1044"
+  ],
+  "pC": [
+    "jo 0x1045"
+  ],
+  "pD": [
+    "jo 0x1046"
+  ],
+  "pE": [
+    "jo 0x1047"
+  ],
+  "pF": [
+    "jo 0x1048"
+  ],
+  "pG": [
+    "jo 0x1049"
+  ],
+  "pH": [
+    "jo 0x104a"
+  ],
+  "pI": [
+    "jo 0x104b"
+  ],
+  "pJ": [
+    "jo 0x104c"
+  ],
+  "pK": [
+    "jo 0x104d"
+  ],
+  "pL": [
+    "jo 0x104e"
+  ],
+  "pM": [
+    "jo 0x104f"
+  ],
+  "pN": [
+    "jo 0x1050"
+  ],
+  "pO": [
+    "jo 0x1051"
+  ],
+  "pP": [
+    "jo 0x1052"
+  ],
+  "pQ": [
+    "jo 0x1053"
+  ],
+  "pR": [
+    "jo 0x1054"
+  ],
+  "pS": [
+    "jo 0x1055"
+  ],
+  "pT": [
+    "jo 0x1056"
+  ],
+  "pU": [
+    "jo 0x1057"
+  ],
+  "pV": [
+    "jo 0x1058"
+  ],
+  "pW": [
+    "jo 0x1059"
+  ],
+  "pX": [
+    "jo 0x105a"
+  ],
+  "pY": [
+    "jo 0x105b"
+  ],
+  "pZ": [
+    "jo 0x105c"
+  ],
+  "pa": [
+    "jo 0x1063"
+  ],
+  "pb": [
+    "jo 0x1064"
+  ],
+  "pc": [
+    "jo 0x1065"
+  ],
+  "pd": [
+    "jo 0x1066"
+  ],
+  "pe": [
+    "jo 0x1067"
+  ],
+  "pf": [
+    "jo 0x1068"
+  ],
+  "pg": [
+    "jo 0x1069"
+  ],
+  "ph": [
+    "jo 0x106a"
+  ],
+  "pi": [
+    "jo 0x106b"
+  ],
+  "pj": [
+    "jo 0x106c"
+  ],
+  "pk": [
+    "jo 0x106d"
+  ],
+  "pl": [
+    "jo 0x106e"
+  ],
+  "pm": [
+    "jo 0x106f"
+  ],
+  "pn": [
+    "jo 0x1070"
+  ],
+  "po": [
+    "jo 0x1071"
+  ],
+  "pp": [
+    "jo 0x1072"
+  ],
+  "pq": [
+    "jo 0x1073"
+  ],
+  "pr": [
+    "jo 0x1074"
+  ],
+  "ps": [
+    "jo 0x1075"
+  ],
+  "pt": [
+    "jo 0x1076"
+  ],
+  "pu": [
+    "jo 0x1077"
+  ],
+  "pv": [
+    "jo 0x1078"
+  ],
+  "pw": [
+    "jo 0x1079"
+  ],
+  "px": [
+    "jo 0x107a"
+  ],
+  "py": [
+    "jo 0x107b"
+  ],
+  "pz": [
+    "jo 0x107c"
+  ],
+  "q0": [
+    "jno 0x1032"
+  ],
+  "q1": [
+    "jno 0x1033"
+  ],
+  "q2": [
+    "jno 0x1034"
+  ],
+  "q3": [
+    "jno 0x1035"
+  ],
+  "q4": [
+    "jno 0x1036"
+  ],
+  "q5": [
+    "jno 0x1037"
+  ],
+  "q6": [
+    "jno 0x1038"
+  ],
+  "q7": [
+    "jno 0x1039"
+  ],
+  "q8": [
+    "jno 0x103a"
+  ],
+  "q9": [
+    "jno 0x103b"
+  ],
+  "qA": [
+    "jno 0x1043"
+  ],
+  "qB": [
+    "jno 0x1044"
+  ],
+  "qC": [
+    "jno 0x1045"
+  ],
+  "qD": [
+    "jno 0x1046"
+  ],
+  "qE": [
+    "jno 0x1047"
+  ],
+  "qF": [
+    "jno 0x1048"
+  ],
+  "qG": [
+    "jno 0x1049"
+  ],
+  "qH": [
+    "jno 0x104a"
+  ],
+  "qI": [
+    "jno 0x104b"
+  ],
+  "qJ": [
+    "jno 0x104c"
+  ],
+  "qK": [
+    "jno 0x104d"
+  ],
+  "qL": [
+    "jno 0x104e"
+  ],
+  "qM": [
+    "jno 0x104f"
+  ],
+  "qN": [
+    "jno 0x1050"
+  ],
+  "qO": [
+    "jno 0x1051"
+  ],
+  "qP": [
+    "jno 0x1052"
+  ],
+  "qQ": [
+    "jno 0x1053"
+  ],
+  "qR": [
+    "jno 0x1054"
+  ],
+  "qS": [
+    "jno 0x1055"
+  ],
+  "qT": [
+    "jno 0x1056"
+  ],
+  "qU": [
+    "jno 0x1057"
+  ],
+  "qV": [
+    "jno 0x1058"
+  ],
+  "qW": [
+    "jno 0x1059"
+  ],
+  "qX": [
+    "jno 0x105a"
+  ],
+  "qY": [
+    "jno 0x105b"
+  ],
+  "qZ": [
+    "jno 0x105c"
+  ],
+  "qa": [
+    "jno 0x1063"
+  ],
+  "qb": [
+    "jno 0x1064"
+  ],
+  "qc": [
+    "jno 0x1065"
+  ],
+  "qd": [
+    "jno 0x1066"
+  ],
+  "qe": [
+    "jno 0x1067"
+  ],
+  "qf": [
+    "jno 0x1068"
+  ],
+  "qg": [
+    "jno 0x1069"
+  ],
+  "qh": [
+    "jno 0x106a"
+  ],
+  "qi": [
+    "jno 0x106b"
+  ],
+  "qj": [
+    "jno 0x106c"
+  ],
+  "qk": [
+    "jno 0x106d"
+  ],
+  "ql": [
+    "jno 0x106e"
+  ],
+  "qm": [
+    "jno 0x106f"
+  ],
+  "qn": [
+    "jno 0x1070"
+  ],
+  "qo": [
+    "jno 0x1071"
+  ],
+  "qp": [
+    "jno 0x1072"
+  ],
+  "qq": [
+    "jno 0x1073"
+  ],
+  "qr": [
+    "jno 0x1074"
+  ],
+  "qs": [
+    "jno 0x1075"
+  ],
+  "qt": [
+    "jno 0x1076"
+  ],
+  "qu": [
+    "jno 0x1077"
+  ],
+  "qv": [
+    "jno 0x1078"
+  ],
+  "qw": [
+    "jno 0x1079"
+  ],
+  "qx": [
+    "jno 0x107a"
+  ],
+  "qy": [
+    "jno 0x107b"
+  ],
+  "qz": [
+    "jno 0x107c"
+  ],
+  "r0": [
+    "jb 0x1032"
+  ],
+  "r1": [
+    "jb 0x1033"
+  ],
+  "r2": [
+    "jb 0x1034"
+  ],
+  "r3": [
+    "jb 0x1035"
+  ],
+  "r4": [
+    "jb 0x1036"
+  ],
+  "r5": [
+    "jb 0x1037"
+  ],
+  "r6": [
+    "jb 0x1038"
+  ],
+  "r7": [
+    "jb 0x1039"
+  ],
+  "r8": [
+    "jb 0x103a"
+  ],
+  "r9": [
+    "jb 0x103b"
+  ],
+  "rA": [
+    "jb 0x1043"
+  ],
+  "rB": [
+    "jb 0x1044"
+  ],
+  "rC": [
+    "jb 0x1045"
+  ],
+  "rD": [
+    "jb 0x1046"
+  ],
+  "rE": [
+    "jb 0x1047"
+  ],
+  "rF": [
+    "jb 0x1048"
+  ],
+  "rG": [
+    "jb 0x1049"
+  ],
+  "rH": [
+    "jb 0x104a"
+  ],
+  "rI": [
+    "jb 0x104b"
+  ],
+  "rJ": [
+    "jb 0x104c"
+  ],
+  "rK": [
+    "jb 0x104d"
+  ],
+  "rL": [
+    "jb 0x104e"
+  ],
+  "rM": [
+    "jb 0x104f"
+  ],
+  "rN": [
+    "jb 0x1050"
+  ],
+  "rO": [
+    "jb 0x1051"
+  ],
+  "rP": [
+    "jb 0x1052"
+  ],
+  "rQ": [
+    "jb 0x1053"
+  ],
+  "rR": [
+    "jb 0x1054"
+  ],
+  "rS": [
+    "jb 0x1055"
+  ],
+  "rT": [
+    "jb 0x1056"
+  ],
+  "rU": [
+    "jb 0x1057"
+  ],
+  "rV": [
+    "jb 0x1058"
+  ],
+  "rW": [
+    "jb 0x1059"
+  ],
+  "rX": [
+    "jb 0x105a"
+  ],
+  "rY": [
+    "jb 0x105b"
+  ],
+  "rZ": [
+    "jb 0x105c"
+  ],
+  "ra": [
+    "jb 0x1063"
+  ],
+  "rb": [
+    "jb 0x1064"
+  ],
+  "rc": [
+    "jb 0x1065"
+  ],
+  "rd": [
+    "jb 0x1066"
+  ],
+  "re": [
+    "jb 0x1067"
+  ],
+  "rf": [
+    "jb 0x1068"
+  ],
+  "rg": [
+    "jb 0x1069"
+  ],
+  "rh": [
+    "jb 0x106a"
+  ],
+  "ri": [
+    "jb 0x106b"
+  ],
+  "rj": [
+    "jb 0x106c"
+  ],
+  "rk": [
+    "jb 0x106d"
+  ],
+  "rl": [
+    "jb 0x106e"
+  ],
+  "rm": [
+    "jb 0x106f"
+  ],
+  "rn": [
+    "jb 0x1070"
+  ],
+  "ro": [
+    "jb 0x1071"
+  ],
+  "rp": [
+    "jb 0x1072"
+  ],
+  "rq": [
+    "jb 0x1073"
+  ],
+  "rr": [
+    "jb 0x1074"
+  ],
+  "rs": [
+    "jb 0x1075"
+  ],
+  "rt": [
+    "jb 0x1076"
+  ],
+  "ru": [
+    "jb 0x1077"
+  ],
+  "rv": [
+    "jb 0x1078"
+  ],
+  "rw": [
+    "jb 0x1079"
+  ],
+  "rx": [
+    "jb 0x107a"
+  ],
+  "ry": [
+    "jb 0x107b"
+  ],
+  "rz": [
+    "jb 0x107c"
+  ],
+  "s0": [
+    "jae 0x1032"
+  ],
+  "s1": [
+    "jae 0x1033"
+  ],
+  "s2": [
+    "jae 0x1034"
+  ],
+  "s3": [
+    "jae 0x1035"
+  ],
+  "s4": [
+    "jae 0x1036"
+  ],
+  "s5": [
+    "jae 0x1037"
+  ],
+  "s6": [
+    "jae 0x1038"
+  ],
+  "s7": [
+    "jae 0x1039"
+  ],
+  "s8": [
+    "jae 0x103a"
+  ],
+  "s9": [
+    "jae 0x103b"
+  ],
+  "sA": [
+    "jae 0x1043"
+  ],
+  "sB": [
+    "jae 0x1044"
+  ],
+  "sC": [
+    "jae 0x1045"
+  ],
+  "sD": [
+    "jae 0x1046"
+  ],
+  "sE": [
+    "jae 0x1047"
+  ],
+  "sF": [
+    "jae 0x1048"
+  ],
+  "sG": [
+    "jae 0x1049"
+  ],
+  "sH": [
+    "jae 0x104a"
+  ],
+  "sI": [
+    "jae 0x104b"
+  ],
+  "sJ": [
+    "jae 0x104c"
+  ],
+  "sK": [
+    "jae 0x104d"
+  ],
+  "sL": [
+    "jae 0x104e"
+  ],
+  "sM": [
+    "jae 0x104f"
+  ],
+  "sN": [
+    "jae 0x1050"
+  ],
+  "sO": [
+    "jae 0x1051"
+  ],
+  "sP": [
+    "jae 0x1052"
+  ],
+  "sQ": [
+    "jae 0x1053"
+  ],
+  "sR": [
+    "jae 0x1054"
+  ],
+  "sS": [
+    "jae 0x1055"
+  ],
+  "sT": [
+    "jae 0x1056"
+  ],
+  "sU": [
+    "jae 0x1057"
+  ],
+  "sV": [
+    "jae 0x1058"
+  ],
+  "sW": [
+    "jae 0x1059"
+  ],
+  "sX": [
+    "jae 0x105a"
+  ],
+  "sY": [
+    "jae 0x105b"
+  ],
+  "sZ": [
+    "jae 0x105c"
+  ],
+  "sa": [
+    "jae 0x1063"
+  ],
+  "sb": [
+    "jae 0x1064"
+  ],
+  "sc": [
+    "jae 0x1065"
+  ],
+  "sd": [
+    "jae 0x1066"
+  ],
+  "se": [
+    "jae 0x1067"
+  ],
+  "sf": [
+    "jae 0x1068"
+  ],
+  "sg": [
+    "jae 0x1069"
+  ],
+  "sh": [
+    "jae 0x106a"
+  ],
+  "si": [
+    "jae 0x106b"
+  ],
+  "sj": [
+    "jae 0x106c"
+  ],
+  "sk": [
+    "jae 0x106d"
+  ],
+  "sl": [
+    "jae 0x106e"
+  ],
+  "sm": [
+    "jae 0x106f"
+  ],
+  "sn": [
+    "jae 0x1070"
+  ],
+  "so": [
+    "jae 0x1071"
+  ],
+  "sp": [
+    "jae 0x1072"
+  ],
+  "sq": [
+    "jae 0x1073"
+  ],
+  "sr": [
+    "jae 0x1074"
+  ],
+  "ss": [
+    "jae 0x1075"
+  ],
+  "st": [
+    "jae 0x1076"
+  ],
+  "su": [
+    "jae 0x1077"
+  ],
+  "sv": [
+    "jae 0x1078"
+  ],
+  "sw": [
+    "jae 0x1079"
+  ],
+  "sx": [
+    "jae 0x107a"
+  ],
+  "sy": [
+    "jae 0x107b"
+  ],
+  "sz": [
+    "jae 0x107c"
+  ],
+  "t0": [
+    "je 0x1032"
+  ],
+  "t1": [
+    "je 0x1033"
+  ],
+  "t2": [
+    "je 0x1034"
+  ],
+  "t3": [
+    "je 0x1035"
+  ],
+  "t4": [
+    "je 0x1036"
+  ],
+  "t5": [
+    "je 0x1037"
+  ],
+  "t6": [
+    "je 0x1038"
+  ],
+  "t7": [
+    "je 0x1039"
+  ],
+  "t8": [
+    "je 0x103a"
+  ],
+  "t9": [
+    "je 0x103b"
+  ],
+  "tA": [
+    "je 0x1043"
+  ],
+  "tB": [
+    "je 0x1044"
+  ],
+  "tC": [
+    "je 0x1045"
+  ],
+  "tD": [
+    "je 0x1046"
+  ],
+  "tE": [
+    "je 0x1047"
+  ],
+  "tF": [
+    "je 0x1048"
+  ],
+  "tG": [
+    "je 0x1049"
+  ],
+  "tH": [
+    "je 0x104a"
+  ],
+  "tI": [
+    "je 0x104b"
+  ],
+  "tJ": [
+    "je 0x104c"
+  ],
+  "tK": [
+    "je 0x104d"
+  ],
+  "tL": [
+    "je 0x104e"
+  ],
+  "tM": [
+    "je 0x104f"
+  ],
+  "tN": [
+    "je 0x1050"
+  ],
+  "tO": [
+    "je 0x1051"
+  ],
+  "tP": [
+    "je 0x1052"
+  ],
+  "tQ": [
+    "je 0x1053"
+  ],
+  "tR": [
+    "je 0x1054"
+  ],
+  "tS": [
+    "je 0x1055"
+  ],
+  "tT": [
+    "je 0x1056"
+  ],
+  "tU": [
+    "je 0x1057"
+  ],
+  "tV": [
+    "je 0x1058"
+  ],
+  "tW": [
+    "je 0x1059"
+  ],
+  "tX": [
+    "je 0x105a"
+  ],
+  "tY": [
+    "je 0x105b"
+  ],
+  "tZ": [
+    "je 0x105c"
+  ],
+  "ta": [
+    "je 0x1063"
+  ],
+  "tb": [
+    "je 0x1064"
+  ],
+  "tc": [
+    "je 0x1065"
+  ],
+  "td": [
+    "je 0x1066"
+  ],
+  "te": [
+    "je 0x1067"
+  ],
+  "tf": [
+    "je 0x1068"
+  ],
+  "tg": [
+    "je 0x1069"
+  ],
+  "th": [
+    "je 0x106a"
+  ],
+  "ti": [
+    "je 0x106b"
+  ],
+  "tj": [
+    "je 0x106c"
+  ],
+  "tk": [
+    "je 0x106d"
+  ],
+  "tl": [
+    "je 0x106e"
+  ],
+  "tm": [
+    "je 0x106f"
+  ],
+  "tn": [
+    "je 0x1070"
+  ],
+  "to": [
+    "je 0x1071"
+  ],
+  "tp": [
+    "je 0x1072"
+  ],
+  "tq": [
+    "je 0x1073"
+  ],
+  "tr": [
+    "je 0x1074"
+  ],
+  "ts": [
+    "je 0x1075"
+  ],
+  "tt": [
+    "je 0x1076"
+  ],
+  "tu": [
+    "je 0x1077"
+  ],
+  "tv": [
+    "je 0x1078"
+  ],
+  "tw": [
+    "je 0x1079"
+  ],
+  "tx": [
+    "je 0x107a"
+  ],
+  "ty": [
+    "je 0x107b"
+  ],
+  "tz": [
+    "je 0x107c"
+  ],
+  "u0": [
+    "jne 0x1032"
+  ],
+  "u1": [
+    "jne 0x1033"
+  ],
+  "u2": [
+    "jne 0x1034"
+  ],
+  "u3": [
+    "jne 0x1035"
+  ],
+  "u4": [
+    "jne 0x1036"
+  ],
+  "u5": [
+    "jne 0x1037"
+  ],
+  "u6": [
+    "jne 0x1038"
+  ],
+  "u7": [
+    "jne 0x1039"
+  ],
+  "u8": [
+    "jne 0x103a"
+  ],
+  "u9": [
+    "jne 0x103b"
+  ],
+  "uA": [
+    "jne 0x1043"
+  ],
+  "uB": [
+    "jne 0x1044"
+  ],
+  "uC": [
+    "jne 0x1045"
+  ],
+  "uD": [
+    "jne 0x1046"
+  ],
+  "uE": [
+    "jne 0x1047"
+  ],
+  "uF": [
+    "jne 0x1048"
+  ],
+  "uG": [
+    "jne 0x1049"
+  ],
+  "uH": [
+    "jne 0x104a"
+  ],
+  "uI": [
+    "jne 0x104b"
+  ],
+  "uJ": [
+    "jne 0x104c"
+  ],
+  "uK": [
+    "jne 0x104d"
+  ],
+  "uL": [
+    "jne 0x104e"
+  ],
+  "uM": [
+    "jne 0x104f"
+  ],
+  "uN": [
+    "jne 0x1050"
+  ],
+  "uO": [
+    "jne 0x1051"
+  ],
+  "uP": [
+    "jne 0x1052"
+  ],
+  "uQ": [
+    "jne 0x1053"
+  ],
+  "uR": [
+    "jne 0x1054"
+  ],
+  "uS": [
+    "jne 0x1055"
+  ],
+  "uT": [
+    "jne 0x1056"
+  ],
+  "uU": [
+    "jne 0x1057"
+  ],
+  "uV": [
+    "jne 0x1058"
+  ],
+  "uW": [
+    "jne 0x1059"
+  ],
+  "uX": [
+    "jne 0x105a"
+  ],
+  "uY": [
+    "jne 0x105b"
+  ],
+  "uZ": [
+    "jne 0x105c"
+  ],
+  "ua": [
+    "jne 0x1063"
+  ],
+  "ub": [
+    "jne 0x1064"
+  ],
+  "uc": [
+    "jne 0x1065"
+  ],
+  "ud": [
+    "jne 0x1066"
+  ],
+  "ue": [
+    "jne 0x1067"
+  ],
+  "uf": [
+    "jne 0x1068"
+  ],
+  "ug": [
+    "jne 0x1069"
+  ],
+  "uh": [
+    "jne 0x106a"
+  ],
+  "ui": [
+    "jne 0x106b"
+  ],
+  "uj": [
+    "jne 0x106c"
+  ],
+  "uk": [
+    "jne 0x106d"
+  ],
+  "ul": [
+    "jne 0x106e"
+  ],
+  "um": [
+    "jne 0x106f"
+  ],
+  "un": [
+    "jne 0x1070"
+  ],
+  "uo": [
+    "jne 0x1071"
+  ],
+  "up": [
+    "jne 0x1072"
+  ],
+  "uq": [
+    "jne 0x1073"
+  ],
+  "ur": [
+    "jne 0x1074"
+  ],
+  "us": [
+    "jne 0x1075"
+  ],
+  "ut": [
+    "jne 0x1076"
+  ],
+  "uu": [
+    "jne 0x1077"
+  ],
+  "uv": [
+    "jne 0x1078"
+  ],
+  "uw": [
+    "jne 0x1079"
+  ],
+  "ux": [
+    "jne 0x107a"
+  ],
+  "uy": [
+    "jne 0x107b"
+  ],
+  "uz": [
+    "jne 0x107c"
+  ],
+  "v0": [
+    "jbe 0x1032"
+  ],
+  "v1": [
+    "jbe 0x1033"
+  ],
+  "v2": [
+    "jbe 0x1034"
+  ],
+  "v3": [
+    "jbe 0x1035"
+  ],
+  "v4": [
+    "jbe 0x1036"
+  ],
+  "v5": [
+    "jbe 0x1037"
+  ],
+  "v6": [
+    "jbe 0x1038"
+  ],
+  "v7": [
+    "jbe 0x1039"
+  ],
+  "v8": [
+    "jbe 0x103a"
+  ],
+  "v9": [
+    "jbe 0x103b"
+  ],
+  "vA": [
+    "jbe 0x1043"
+  ],
+  "vB": [
+    "jbe 0x1044"
+  ],
+  "vC": [
+    "jbe 0x1045"
+  ],
+  "vD": [
+    "jbe 0x1046"
+  ],
+  "vE": [
+    "jbe 0x1047"
+  ],
+  "vF": [
+    "jbe 0x1048"
+  ],
+  "vG": [
+    "jbe 0x1049"
+  ],
+  "vH": [
+    "jbe 0x104a"
+  ],
+  "vI": [
+    "jbe 0x104b"
+  ],
+  "vJ": [
+    "jbe 0x104c"
+  ],
+  "vK": [
+    "jbe 0x104d"
+  ],
+  "vL": [
+    "jbe 0x104e"
+  ],
+  "vM": [
+    "jbe 0x104f"
+  ],
+  "vN": [
+    "jbe 0x1050"
+  ],
+  "vO": [
+    "jbe 0x1051"
+  ],
+  "vP": [
+    "jbe 0x1052"
+  ],
+  "vQ": [
+    "jbe 0x1053"
+  ],
+  "vR": [
+    "jbe 0x1054"
+  ],
+  "vS": [
+    "jbe 0x1055"
+  ],
+  "vT": [
+    "jbe 0x1056"
+  ],
+  "vU": [
+    "jbe 0x1057"
+  ],
+  "vV": [
+    "jbe 0x1058"
+  ],
+  "vW": [
+    "jbe 0x1059"
+  ],
+  "vX": [
+    "jbe 0x105a"
+  ],
+  "vY": [
+    "jbe 0x105b"
+  ],
+  "vZ": [
+    "jbe 0x105c"
+  ],
+  "va": [
+    "jbe 0x1063"
+  ],
+  "vb": [
+    "jbe 0x1064"
+  ],
+  "vc": [
+    "jbe 0x1065"
+  ],
+  "vd": [
+    "jbe 0x1066"
+  ],
+  "ve": [
+    "jbe 0x1067"
+  ],
+  "vf": [
+    "jbe 0x1068"
+  ],
+  "vg": [
+    "jbe 0x1069"
+  ],
+  "vh": [
+    "jbe 0x106a"
+  ],
+  "vi": [
+    "jbe 0x106b"
+  ],
+  "vj": [
+    "jbe 0x106c"
+  ],
+  "vk": [
+    "jbe 0x106d"
+  ],
+  "vl": [
+    "jbe 0x106e"
+  ],
+  "vm": [
+    "jbe 0x106f"
+  ],
+  "vn": [
+    "jbe 0x1070"
+  ],
+  "vo": [
+    "jbe 0x1071"
+  ],
+  "vp": [
+    "jbe 0x1072"
+  ],
+  "vq": [
+    "jbe 0x1073"
+  ],
+  "vr": [
+    "jbe 0x1074"
+  ],
+  "vs": [
+    "jbe 0x1075"
+  ],
+  "vt": [
+    "jbe 0x1076"
+  ],
+  "vu": [
+    "jbe 0x1077"
+  ],
+  "vv": [
+    "jbe 0x1078"
+  ],
+  "vw": [
+    "jbe 0x1079"
+  ],
+  "vx": [
+    "jbe 0x107a"
+  ],
+  "vy": [
+    "jbe 0x107b"
+  ],
+  "vz": [
+    "jbe 0x107c"
+  ],
+  "w0": [
+    "ja 0x1032"
+  ],
+  "w1": [
+    "ja 0x1033"
+  ],
+  "w2": [
+    "ja 0x1034"
+  ],
+  "w3": [
+    "ja 0x1035"
+  ],
+  "w4": [
+    "ja 0x1036"
+  ],
+  "w5": [
+    "ja 0x1037"
+  ],
+  "w6": [
+    "ja 0x1038"
+  ],
+  "w7": [
+    "ja 0x1039"
+  ],
+  "w8": [
+    "ja 0x103a"
+  ],
+  "w9": [
+    "ja 0x103b"
+  ],
+  "wA": [
+    "ja 0x1043"
+  ],
+  "wB": [
+    "ja 0x1044"
+  ],
+  "wC": [
+    "ja 0x1045"
+  ],
+  "wD": [
+    "ja 0x1046"
+  ],
+  "wE": [
+    "ja 0x1047"
+  ],
+  "wF": [
+    "ja 0x1048"
+  ],
+  "wG": [
+    "ja 0x1049"
+  ],
+  "wH": [
+    "ja 0x104a"
+  ],
+  "wI": [
+    "ja 0x104b"
+  ],
+  "wJ": [
+    "ja 0x104c"
+  ],
+  "wK": [
+    "ja 0x104d"
+  ],
+  "wL": [
+    "ja 0x104e"
+  ],
+  "wM": [
+    "ja 0x104f"
+  ],
+  "wN": [
+    "ja 0x1050"
+  ],
+  "wO": [
+    "ja 0x1051"
+  ],
+  "wP": [
+    "ja 0x1052"
+  ],
+  "wQ": [
+    "ja 0x1053"
+  ],
+  "wR": [
+    "ja 0x1054"
+  ],
+  "wS": [
+    "ja 0x1055"
+  ],
+  "wT": [
+    "ja 0x1056"
+  ],
+  "wU": [
+    "ja 0x1057"
+  ],
+  "wV": [
+    "ja 0x1058"
+  ],
+  "wW": [
+    "ja 0x1059"
+  ],
+  "wX": [
+    "ja 0x105a"
+  ],
+  "wY": [
+    "ja 0x105b"
+  ],
+  "wZ": [
+    "ja 0x105c"
+  ],
+  "wa": [
+    "ja 0x1063"
+  ],
+  "wb": [
+    "ja 0x1064"
+  ],
+  "wc": [
+    "ja 0x1065"
+  ],
+  "wd": [
+    "ja 0x1066"
+  ],
+  "we": [
+    "ja 0x1067"
+  ],
+  "wf": [
+    "ja 0x1068"
+  ],
+  "wg": [
+    "ja 0x1069"
+  ],
+  "wh": [
+    "ja 0x106a"
+  ],
+  "wi": [
+    "ja 0x106b"
+  ],
+  "wj": [
+    "ja 0x106c"
+  ],
+  "wk": [
+    "ja 0x106d"
+  ],
+  "wl": [
+    "ja 0x106e"
+  ],
+  "wm": [
+    "ja 0x106f"
+  ],
+  "wn": [
+    "ja 0x1070"
+  ],
+  "wo": [
+    "ja 0x1071"
+  ],
+  "wp": [
+    "ja 0x1072"
+  ],
+  "wq": [
+    "ja 0x1073"
+  ],
+  "wr": [
+    "ja 0x1074"
+  ],
+  "ws": [
+    "ja 0x1075"
+  ],
+  "wt": [
+    "ja 0x1076"
+  ],
+  "wu": [
+    "ja 0x1077"
+  ],
+  "wv": [
+    "ja 0x1078"
+  ],
+  "ww": [
+    "ja 0x1079"
+  ],
+  "wx": [
+    "ja 0x107a"
+  ],
+  "wy": [
+    "ja 0x107b"
+  ],
+  "wz": [
+    "ja 0x107c"
+  ],
+  "x0": [
+    "js 0x1032"
+  ],
+  "x1": [
+    "js 0x1033"
+  ],
+  "x2": [
+    "js 0x1034"
+  ],
+  "x3": [
+    "js 0x1035"
+  ],
+  "x4": [
+    "js 0x1036"
+  ],
+  "x5": [
+    "js 0x1037"
+  ],
+  "x6": [
+    "js 0x1038"
+  ],
+  "x7": [
+    "js 0x1039"
+  ],
+  "x8": [
+    "js 0x103a"
+  ],
+  "x9": [
+    "js 0x103b"
+  ],
+  "xA": [
+    "js 0x1043"
+  ],
+  "xB": [
+    "js 0x1044"
+  ],
+  "xC": [
+    "js 0x1045"
+  ],
+  "xD": [
+    "js 0x1046"
+  ],
+  "xE": [
+    "js 0x1047"
+  ],
+  "xF": [
+    "js 0x1048"
+  ],
+  "xG": [
+    "js 0x1049"
+  ],
+  "xH": [
+    "js 0x104a"
+  ],
+  "xI": [
+    "js 0x104b"
+  ],
+  "xJ": [
+    "js 0x104c"
+  ],
+  "xK": [
+    "js 0x104d"
+  ],
+  "xL": [
+    "js 0x104e"
+  ],
+  "xM": [
+    "js 0x104f"
+  ],
+  "xN": [
+    "js 0x1050"
+  ],
+  "xO": [
+    "js 0x1051"
+  ],
+  "xP": [
+    "js 0x1052"
+  ],
+  "xQ": [
+    "js 0x1053"
+  ],
+  "xR": [
+    "js 0x1054"
+  ],
+  "xS": [
+    "js 0x1055"
+  ],
+  "xT": [
+    "js 0x1056"
+  ],
+  "xU": [
+    "js 0x1057"
+  ],
+  "xV": [
+    "js 0x1058"
+  ],
+  "xW": [
+    "js 0x1059"
+  ],
+  "xX": [
+    "js 0x105a"
+  ],
+  "xY": [
+    "js 0x105b"
+  ],
+  "xZ": [
+    "js 0x105c"
+  ],
+  "xa": [
+    "js 0x1063"
+  ],
+  "xb": [
+    "js 0x1064"
+  ],
+  "xc": [
+    "js 0x1065"
+  ],
+  "xd": [
+    "js 0x1066"
+  ],
+  "xe": [
+    "js 0x1067"
+  ],
+  "xf": [
+    "js 0x1068"
+  ],
+  "xg": [
+    "js 0x1069"
+  ],
+  "xh": [
+    "js 0x106a"
+  ],
+  "xi": [
+    "js 0x106b"
+  ],
+  "xj": [
+    "js 0x106c"
+  ],
+  "xk": [
+    "js 0x106d"
+  ],
+  "xl": [
+    "js 0x106e"
+  ],
+  "xm": [
+    "js 0x106f"
+  ],
+  "xn": [
+    "js 0x1070"
+  ],
+  "xo": [
+    "js 0x1071"
+  ],
+  "xp": [
+    "js 0x1072"
+  ],
+  "xq": [
+    "js 0x1073"
+  ],
+  "xr": [
+    "js 0x1074"
+  ],
+  "xs": [
+    "js 0x1075"
+  ],
+  "xt": [
+    "js 0x1076"
+  ],
+  "xu": [
+    "js 0x1077"
+  ],
+  "xv": [
+    "js 0x1078"
+  ],
+  "xw": [
+    "js 0x1079"
+  ],
+  "xx": [
+    "js 0x107a"
+  ],
+  "xy": [
+    "js 0x107b"
+  ],
+  "xz": [
+    "js 0x107c"
+  ],
+  "y0": [
+    "jns 0x1032"
+  ],
+  "y1": [
+    "jns 0x1033"
+  ],
+  "y2": [
+    "jns 0x1034"
+  ],
+  "y3": [
+    "jns 0x1035"
+  ],
+  "y4": [
+    "jns 0x1036"
+  ],
+  "y5": [
+    "jns 0x1037"
+  ],
+  "y6": [
+    "jns 0x1038"
+  ],
+  "y7": [
+    "jns 0x1039"
+  ],
+  "y8": [
+    "jns 0x103a"
+  ],
+  "y9": [
+    "jns 0x103b"
+  ],
+  "yA": [
+    "jns 0x1043"
+  ],
+  "yB": [
+    "jns 0x1044"
+  ],
+  "yC": [
+    "jns 0x1045"
+  ],
+  "yD": [
+    "jns 0x1046"
+  ],
+  "yE": [
+    "jns 0x1047"
+  ],
+  "yF": [
+    "jns 0x1048"
+  ],
+  "yG": [
+    "jns 0x1049"
+  ],
+  "yH": [
+    "jns 0x104a"
+  ],
+  "yI": [
+    "jns 0x104b"
+  ],
+  "yJ": [
+    "jns 0x104c"
+  ],
+  "yK": [
+    "jns 0x104d"
+  ],
+  "yL": [
+    "jns 0x104e"
+  ],
+  "yM": [
+    "jns 0x104f"
+  ],
+  "yN": [
+    "jns 0x1050"
+  ],
+  "yO": [
+    "jns 0x1051"
+  ],
+  "yP": [
+    "jns 0x1052"
+  ],
+  "yQ": [
+    "jns 0x1053"
+  ],
+  "yR": [
+    "jns 0x1054"
+  ],
+  "yS": [
+    "jns 0x1055"
+  ],
+  "yT": [
+    "jns 0x1056"
+  ],
+  "yU": [
+    "jns 0x1057"
+  ],
+  "yV": [
+    "jns 0x1058"
+  ],
+  "yW": [
+    "jns 0x1059"
+  ],
+  "yX": [
+    "jns 0x105a"
+  ],
+  "yY": [
+    "jns 0x105b"
+  ],
+  "yZ": [
+    "jns 0x105c"
+  ],
+  "ya": [
+    "jns 0x1063"
+  ],
+  "yb": [
+    "jns 0x1064"
+  ],
+  "yc": [
+    "jns 0x1065"
+  ],
+  "yd": [
+    "jns 0x1066"
+  ],
+  "ye": [
+    "jns 0x1067"
+  ],
+  "yf": [
+    "jns 0x1068"
+  ],
+  "yg": [
+    "jns 0x1069"
+  ],
+  "yh": [
+    "jns 0x106a"
+  ],
+  "yi": [
+    "jns 0x106b"
+  ],
+  "yj": [
+    "jns 0x106c"
+  ],
+  "yk": [
+    "jns 0x106d"
+  ],
+  "yl": [
+    "jns 0x106e"
+  ],
+  "ym": [
+    "jns 0x106f"
+  ],
+  "yn": [
+    "jns 0x1070"
+  ],
+  "yo": [
+    "jns 0x1071"
+  ],
+  "yp": [
+    "jns 0x1072"
+  ],
+  "yq": [
+    "jns 0x1073"
+  ],
+  "yr": [
+    "jns 0x1074"
+  ],
+  "ys": [
+    "jns 0x1075"
+  ],
+  "yt": [
+    "jns 0x1076"
+  ],
+  "yu": [
+    "jns 0x1077"
+  ],
+  "yv": [
+    "jns 0x1078"
+  ],
+  "yw": [
+    "jns 0x1079"
+  ],
+  "yx": [
+    "jns 0x107a"
+  ],
+  "yy": [
+    "jns 0x107b"
+  ],
+  "yz": [
+    "jns 0x107c"
+  ],
+  "z0": [
+    "jp 0x1032"
+  ],
+  "z1": [
+    "jp 0x1033"
+  ],
+  "z2": [
+    "jp 0x1034"
+  ],
+  "z3": [
+    "jp 0x1035"
+  ],
+  "z4": [
+    "jp 0x1036"
+  ],
+  "z5": [
+    "jp 0x1037"
+  ],
+  "z6": [
+    "jp 0x1038"
+  ],
+  "z7": [
+    "jp 0x1039"
+  ],
+  "z8": [
+    "jp 0x103a"
+  ],
+  "z9": [
+    "jp 0x103b"
+  ],
+  "zA": [
+    "jp 0x1043"
+  ],
+  "zB": [
+    "jp 0x1044"
+  ],
+  "zC": [
+    "jp 0x1045"
+  ],
+  "zD": [
+    "jp 0x1046"
+  ],
+  "zE": [
+    "jp 0x1047"
+  ],
+  "zF": [
+    "jp 0x1048"
+  ],
+  "zG": [
+    "jp 0x1049"
+  ],
+  "zH": [
+    "jp 0x104a"
+  ],
+  "zI": [
+    "jp 0x104b"
+  ],
+  "zJ": [
+    "jp 0x104c"
+  ],
+  "zK": [
+    "jp 0x104d"
+  ],
+  "zL": [
+    "jp 0x104e"
+  ],
+  "zM": [
+    "jp 0x104f"
+  ],
+  "zN": [
+    "jp 0x1050"
+  ],
+  "zO": [
+    "jp 0x1051"
+  ],
+  "zP": [
+    "jp 0x1052"
+  ],
+  "zQ": [
+    "jp 0x1053"
+  ],
+  "zR": [
+    "jp 0x1054"
+  ],
+  "zS": [
+    "jp 0x1055"
+  ],
+  "zT": [
+    "jp 0x1056"
+  ],
+  "zU": [
+    "jp 0x1057"
+  ],
+  "zV": [
+    "jp 0x1058"
+  ],
+  "zW": [
+    "jp 0x1059"
+  ],
+  "zX": [
+    "jp 0x105a"
+  ],
+  "zY": [
+    "jp 0x105b"
+  ],
+  "zZ": [
+    "jp 0x105c"
+  ],
+  "za": [
+    "jp 0x1063"
+  ],
+  "zb": [
+    "jp 0x1064"
+  ],
+  "zc": [
+    "jp 0x1065"
+  ],
+  "zd": [
+    "jp 0x1066"
+  ],
+  "ze": [
+    "jp 0x1067"
+  ],
+  "zf": [
+    "jp 0x1068"
+  ],
+  "zg": [
+    "jp 0x1069"
+  ],
+  "zh": [
+    "jp 0x106a"
+  ],
+  "zi": [
+    "jp 0x106b"
+  ],
+  "zj": [
+    "jp 0x106c"
+  ],
+  "zk": [
+    "jp 0x106d"
+  ],
+  "zl": [
+    "jp 0x106e"
+  ],
+  "zm": [
+    "jp 0x106f"
+  ],
+  "zn": [
+    "jp 0x1070"
+  ],
+  "zo": [
+    "jp 0x1071"
+  ],
+  "zp": [
+    "jp 0x1072"
+  ],
+  "zq": [
+    "jp 0x1073"
+  ],
+  "zr": [
+    "jp 0x1074"
+  ],
+  "zs": [
+    "jp 0x1075"
+  ],
+  "zt": [
+    "jp 0x1076"
+  ],
+  "zu": [
+    "jp 0x1077"
+  ],
+  "zv": [
+    "jp 0x1078"
+  ],
+  "zw": [
+    "jp 0x1079"
+  ],
+  "zx": [
+    "jp 0x107a"
+  ],
+  "zy": [
+    "jp 0x107b"
+  ],
+  "zz": [
+    "jp 0x107c"
+  ]
+}
