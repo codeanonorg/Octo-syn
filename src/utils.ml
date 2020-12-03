@@ -107,6 +107,6 @@ let string_of_byte b =
 let string_of_bytes b =
   List.map string_of_byte b |> List.fold_left (fun acc c -> acc ^ " " ^ c) ""
 
-(** Subtract an integer from a list of byte and returns a new list of bytes *)
-let bytes_sub a l =
-  int_of_bytes l - a |> bytes_of_int
+(** Add an integer to a list of bytes and returns a new list of bytes *)
+let bytes_add a l =
+  int_of_bytes l + a |> bytes_of_int

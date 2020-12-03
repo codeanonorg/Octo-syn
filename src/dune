@@ -1,9 +1,9 @@
 (library
   (name octosyn)
   (libraries keystone opal)
-  (modules :standard \ test))
+  (modules :standard \ exploit))
 
 (executable
-  (name test)
+  (name exploit)
   (libraries octosyn)
-  (modules test))
+  (modules exploit))
