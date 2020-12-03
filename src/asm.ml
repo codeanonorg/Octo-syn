@@ -1,11 +1,6 @@
 open Keystone
 open Keystone.Types
 
-let engine =
-  match ks_open KS_ARCH_X86 KS_MODE_64 with
-  | Ok e    -> e
-  | Error _ -> assert false
-
 let asm_size res = res.encoding_size
 
 let asm_count res = res.stat_count
@@ -20,14 +15,14 @@ let reverted arr =
   Array.init n (fun i -> arr.(n - i - 1))
 
 let asm str =
+  let engine =
+    match ks_open KS_ARCH_X86 KS_MODE_64 with
+    | Ok e    -> e
+    | Error _ -> assert false
+  in
   match ks_asm engine str 0 with
   | Ok res  -> ignore(ks_close engine); res
   | Error s ->
     ignore (ks_close engine);
     Printf.eprintf "[asm] failed with: %s\n" s;
     exit 1
-
-(* let _ = asm "inc rax; dec rax" 
-        |> asm_bytes
-        |> reverted
-        |> print_bytes *)

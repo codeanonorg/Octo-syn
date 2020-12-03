@@ -20,13 +20,29 @@ let parse_hex str =
     Printf.eprintf "[parse_hex] invalid hexadecimal string\n";
     exit 1
 
-let hex str =
+let int_of_base16 l =
+  let rec compute acc = function
+    | []    -> acc
+    | x::xs -> compute (acc * 16 + x) xs
+  in
+  compute 0 l
+
+let base16_of_int i =
+  let rec compute j =
+    if j / 16 = 0 then [j]
+    else (j mod 16)::(compute (j/16))
+  in
+  compute i |> List.rev
+
+let int_of_base16c l =
   let rec compute acc = function
     | []    -> acc
     | x::xs -> compute (acc * 16 + hex_val x) xs
   in
-  parse_hex str
-  |> compute 0
+  compute 0 l
+
+let hex str =
+  parse_hex str |> int_of_base16c
 
 let (let*) = (>>=)
 
@@ -42,3 +58,33 @@ let parse_bytes str =
   | _ ->
     Printf.eprintf "[parse_bytes] invalid hexadecimal string\n";
     exit 1
+
+let int_of_bytes bs =
+  let rec compute acc = function
+    | []    -> acc
+    | x::xs -> compute (acc * 16 * 16 + x) xs
+  in
+  compute 0 bs
+
+let bytes_of_int i =
+  let q = 16 * 16 in
+  let rec compute j =
+    if j / q = 0 then [j]
+    else (j mod q)::(compute (j/q))
+  in
+  compute i |> List.rev
+
+let string_of_byte b =
+  let str b =
+    if b < 0 || b >= 16 then
+      failwith "[string_of_byte] not a byte"
+    else if b <= 9 then string_of_int b
+    else String.make 1 (char_of_int (code 'a' + b - 10))
+  in
+  str (b / 16) ^ str (b mod 16)
+
+let string_of_bytes b =
+  List.map string_of_byte b |> List.fold_left (fun acc c -> acc ^ " " ^ c) ""
+
+let bytes_sub a l =
+  int_of_bytes l - a |> bytes_of_int
