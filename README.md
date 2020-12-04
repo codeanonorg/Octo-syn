@@ -1,6 +1,6 @@
 # Octo-syn
 
-Theoretical framework for Octo's programs synthetiser
+Octo's programs synthetiser and shellcode generator.
 
 ## What is Octo-syn ?
 
@@ -10,13 +10,21 @@ In particular, shellcodes needs to satisfy strong constraints in order to be eff
 
 **Octo-syn** is a first experimental implementation of Octo's programs synthetiser. It is a work in progress and we absolutely don't know where this experiment will lead us.
 
-
 ## Ideas behind Octo-syn
 
-Octo-syn relies strongly on two domains
-
-1. Reasearch algorithms and solvers
+1. Using reasearch algorithms and solvers
   + We try to generate programs satisfying constraints
 2. Formal Methods
-  + we use formal semantics to guide the research algorithm
-  + We'd like to prove that generated programs are correct 
+  + we use formal semantics to guide the research algorithm(s)
+  + we'd like to prove that generated programs are correct with respect to a functional specification
+
+
+## Dependencies
+
+**Octo-syn** requires [keystone](https://github.com/keystone-engine/keystone) and [ocaml bindings](https://github.com/keystone-engine/keystone/tree/master/bindings/ocaml) to be installed.
+
+## Compilation
+
+```
+dune build
+```

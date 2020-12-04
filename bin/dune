@@ -1,0 +1,4 @@
+(executable
+  (public_name test)
+  (name test)
+  (libraries octosyn))
