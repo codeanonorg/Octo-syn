@@ -110,3 +110,6 @@ let string_of_bytes b =
 (** Add an integer to a list of bytes and returns a new list of bytes *)
 let bytes_add a l =
   int_of_bytes l + a |> bytes_of_int
+
+let bytes_to_raw b out =
+  Array.iter (output_byte out) b
